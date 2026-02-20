@@ -4,7 +4,7 @@
 PlayerSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 28
-  productGUID: d51ef0da4084e63499fcdddd30f3fd0b
+  productGUID: d223a12522c60054c8ca737f7a74f4f4
   AndroidProfiler: 0
   AndroidFilterTouchesWhenObscured: 0
   AndroidEnableSustainedPerformanceMode: 0
@@ -13,7 +13,7 @@ PlayerSettings:
   useOnDemandResources: 0
   accelerometerFrequency: 60
   companyName: DefaultCompany
-  productName: MyUnity2DBombermanGame
+  productName: MyUnity2DGameBomberman
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
   m_SplashScreenBackgroundColor: {r: 0.13725491, g: 0.12156863, b: 0.1254902, a: 1}
@@ -601,14 +601,14 @@ PlayerSettings:
   editorAssembliesCompatibilityLevel: 1
   m_RenderingPath: 1
   m_MobileRenderingPath: 1
-  metroPackageName: MyUnity2DBombermanGame
+  metroPackageName: MyUnity2DGameBomberman
   metroPackageVersion: 
   metroCertificatePath: 
   metroCertificatePassword: 
   metroCertificateSubject: 
   metroCertificateIssuer: 
   metroCertificateNotAfter: 0000000000000000
-  metroApplicationDescription: MyUnity2DBombermanGame
+  metroApplicationDescription: MyUnity2DGameBomberman
   wsaImages: {}
   metroTileShortName: 
   metroTileShowName: 0
@@ -679,10 +679,10 @@ PlayerSettings:
   captureStartupLogs: {}
   activeInputHandler: 2
   windowsGamepadBackendHint: 0
-  cloudProjectId: e05c79cc-34c7-4e45-b441-54aba6d1230a
+  cloudProjectId: c6ca3a0b-8f97-4a00-984a-c44e9db7c709
   framebufferDepthMemorylessMode: 0
   qualitySettingsNames: []
-  projectName: MyUnity2DBombermanGame
+  projectName: MyUnity2DGameBomberman
   organizationId: skydc74pgr
   cloudEnabled: 0
   legacyClampBlendShapeWeights: 0
