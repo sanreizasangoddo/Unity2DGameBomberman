@@ -1,226 +1,226 @@
 fileFormatVersion: 2
-guid: 6d422a2f6d8389b48b0d03210c669609
+guid: 85fffc46fea1cef4fb9282e67c8b1c62
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 8429566104808960840
-    second: spr_b_sun-Photoroom_0
+      213: 6387709555066620407
+    second: spr_b_blaze_0
   - first:
-      213: -5620778440253527968
-    second: spr_b_sun-Photoroom_1
+      213: -2308995098096407915
+    second: spr_b_blaze_1
   - first:
-      213: 4657800958695559983
-    second: spr_b_sun-Photoroom_2
+      213: -3094176855688220769
+    second: spr_b_blaze_2
   - first:
-      213: 8854748141563049192
-    second: spr_b_sun-Photoroom_3
+      213: 2602758139189309659
+    second: spr_b_blaze_3
   - first:
-      213: 6800685817978803015
-    second: spr_b_sun-Photoroom_4
+      213: 1436600728135471980
+    second: spr_b_blaze_4
   - first:
-      213: 2660835071556222911
-    second: spr_b_sun-Photoroom_5
+      213: 4317594154475116477
+    second: spr_b_blaze_5
   - first:
-      213: -1873265782246489216
-    second: spr_b_sun-Photoroom_6
+      213: 6796390537536962309
+    second: spr_b_blaze_6
   - first:
-      213: 3054049167945600195
-    second: spr_b_sun-Photoroom_7
+      213: 1489152592357247189
+    second: spr_b_blaze_7
   - first:
-      213: -3891632170256773442
-    second: spr_b_sun-Photoroom_8
+      213: 5092034876554191016
+    second: spr_b_blaze_8
   - first:
-      213: -8850747307715924552
-    second: spr_b_sun-Photoroom_9
+      213: -7530111428727483319
+    second: spr_b_blaze_9
   - first:
-      213: 5100243387641541772
-    second: spr_b_sun-Photoroom_10
+      213: -6322840677046123049
+    second: spr_b_blaze_10
   - first:
-      213: 2798320818868762813
-    second: spr_b_sun-Photoroom_11
+      213: 8088149106191771441
+    second: spr_b_blaze_11
   - first:
-      213: 7338867348884637251
-    second: spr_b_sun-Photoroom_12
+      213: 3244433899564358645
+    second: spr_b_blaze_12
   - first:
-      213: -401323854356474626
-    second: spr_b_sun-Photoroom_13
+      213: 7097392904164588854
+    second: spr_b_blaze_13
   - first:
-      213: 5302561855132848543
-    second: spr_b_sun-Photoroom_14
+      213: 5702862807186654869
+    second: spr_b_blaze_14
   - first:
-      213: -876719791995625917
-    second: spr_b_sun-Photoroom_15
+      213: 2851393293663513910
+    second: spr_b_blaze_15
   - first:
-      213: -8805037899664615554
-    second: spr_b_sun-Photoroom_16
+      213: 2806266535810099085
+    second: spr_b_blaze_16
   - first:
-      213: 8012512766838325280
-    second: spr_b_sun-Photoroom_17
+      213: 8985086066371946278
+    second: spr_b_blaze_17
   - first:
-      213: 7755375715394182244
-    second: spr_b_sun-Photoroom_18
+      213: -2979449356004642831
+    second: spr_b_blaze_18
   - first:
-      213: -2577215041124020979
-    second: spr_b_sun-Photoroom_19
+      213: 460564838956524476
+    second: spr_b_blaze_19
   - first:
-      213: -4038036714723389581
-    second: spr_b_sun-Photoroom_20
+      213: 7935508143756125654
+    second: spr_b_blaze_20
   - first:
-      213: -6998390188443476906
-    second: spr_b_sun-Photoroom_21
+      213: 1502344419721353926
+    second: spr_b_blaze_21
   - first:
-      213: -4993091647953945099
-    second: spr_b_sun-Photoroom_22
+      213: -2597908087607437994
+    second: spr_b_blaze_22
   - first:
-      213: -2096373440491632853
-    second: spr_b_sun-Photoroom_23
+      213: -1971268279524880958
+    second: spr_b_blaze_23
   - first:
-      213: 5775030279572462409
-    second: spr_b_sun-Photoroom_24
+      213: -3535177591391856912
+    second: spr_b_blaze_24
   - first:
-      213: 3324665957759310430
-    second: spr_b_sun-Photoroom_25
+      213: -8322246653082691399
+    second: spr_b_blaze_25
   - first:
-      213: -764652454369136081
-    second: spr_b_sun-Photoroom_26
+      213: -181696361467553436
+    second: spr_b_blaze_26
   - first:
-      213: -826154821493687173
-    second: spr_b_sun-Photoroom_27
+      213: -8445259582645058886
+    second: spr_b_blaze_27
   - first:
-      213: 1580769184547116524
-    second: spr_b_sun-Photoroom_28
+      213: -4105852351685419761
+    second: spr_b_blaze_28
   - first:
-      213: 1190229583282207294
-    second: spr_b_sun-Photoroom_29
+      213: 1806521144288040381
+    second: spr_b_blaze_29
   - first:
-      213: 160523843561352759
-    second: spr_b_sun-Photoroom_30
+      213: -4280369806254131378
+    second: spr_b_blaze_30
   - first:
-      213: 5913265259111919215
-    second: spr_b_sun-Photoroom_31
+      213: 7275451138512826154
+    second: spr_b_blaze_31
   - first:
-      213: -1300363872699692818
-    second: spr_b_sun-Photoroom_32
+      213: 520105044385080602
+    second: spr_b_blaze_32
   - first:
-      213: -3362027419804211636
-    second: spr_b_sun-Photoroom_33
+      213: -2534718880545777949
+    second: spr_b_blaze_33
   - first:
-      213: 6853240379067868317
-    second: spr_b_sun-Photoroom_34
+      213: -7658986509867768589
+    second: spr_b_blaze_34
   - first:
-      213: 3709174274497917987
-    second: spr_b_sun-Photoroom_35
+      213: 3282994492725134160
+    second: spr_b_blaze_35
   - first:
-      213: -1972453799295390330
-    second: spr_b_sun-Photoroom_36
+      213: 3095692935818889699
+    second: spr_b_blaze_36
   - first:
-      213: 2880991637458108060
-    second: spr_b_sun-Photoroom_37
+      213: -5498873094347819373
+    second: spr_b_blaze_37
   - first:
-      213: 6548478310488280123
-    second: spr_b_sun-Photoroom_38
+      213: 2315655059908838960
+    second: spr_b_blaze_38
   - first:
-      213: 6053569838597187408
-    second: spr_b_sun-Photoroom_39
+      213: -6856577110866816438
+    second: spr_b_blaze_39
   - first:
-      213: 183226751666561886
-    second: spr_b_sun-Photoroom_40
+      213: -1578652441716323326
+    second: spr_b_blaze_40
   - first:
-      213: -2613577018391215317
-    second: spr_b_sun-Photoroom_41
+      213: -6059860226862817857
+    second: spr_b_blaze_41
   - first:
-      213: -2808279199831438605
-    second: spr_b_sun-Photoroom_42
+      213: -6156809947399947225
+    second: spr_b_blaze_42
   - first:
-      213: -2973991401067831210
-    second: spr_b_sun-Photoroom_43
+      213: -5900463552050655572
+    second: spr_b_blaze_43
   - first:
-      213: 3156943056426340551
-    second: spr_b_sun-Photoroom_44
+      213: 3102285419632087787
+    second: spr_b_blaze_44
   - first:
-      213: 3140192774237849092
-    second: spr_b_sun-Photoroom_45
+      213: -7569410515099091188
+    second: spr_b_blaze_45
   - first:
-      213: 8334399089640126773
-    second: spr_b_sun-Photoroom_46
+      213: 2194937254080751357
+    second: spr_b_blaze_46
   - first:
-      213: -1902208613398670388
-    second: spr_b_sun-Photoroom_47
+      213: 9169341407378553969
+    second: spr_b_blaze_47
   - first:
-      213: 6347885016675000871
-    second: spr_b_sun-Photoroom_48
+      213: -5953173374188060929
+    second: spr_b_blaze_48
   - first:
-      213: -3953069461691381365
-    second: spr_b_sun-Photoroom_49
+      213: -3691121148504495884
+    second: spr_b_blaze_49
   - first:
-      213: -1098304834538090511
-    second: spr_b_sun-Photoroom_50
+      213: -471117138588146041
+    second: spr_b_blaze_50
   - first:
-      213: -5671018058291993492
-    second: spr_b_sun-Photoroom_51
+      213: 7304002758428064128
+    second: spr_b_blaze_51
   - first:
-      213: -2566342563845418781
-    second: spr_b_sun-Photoroom_52
+      213: 2094682642337132114
+    second: spr_b_blaze_52
   - first:
-      213: -694930025615316573
-    second: spr_b_sun-Photoroom_53
+      213: -6787349883893120115
+    second: spr_b_blaze_53
   - first:
-      213: 749510921042031609
-    second: spr_b_sun-Photoroom_54
+      213: 2990224330007435115
+    second: spr_b_blaze_54
   - first:
-      213: 4158620305634672409
-    second: spr_b_sun-Photoroom_55
+      213: 2972060212659497434
+    second: spr_b_blaze_55
   - first:
-      213: 1956662040199669159
-    second: spr_b_sun-Photoroom_56
+      213: 3611517573710315682
+    second: spr_b_blaze_56
   - first:
-      213: -8577361475054778590
-    second: spr_b_sun-Photoroom_57
+      213: -2041818348931774870
+    second: spr_b_blaze_57
   - first:
-      213: -886500316876514755
-    second: spr_b_sun-Photoroom_58
+      213: 2323211306490444234
+    second: spr_b_blaze_58
   - first:
-      213: 6789671566723206059
-    second: spr_b_sun-Photoroom_59
+      213: -7375752036875277919
+    second: spr_b_blaze_59
   - first:
-      213: -2709290359300444710
-    second: spr_b_sun-Photoroom_60
+      213: -6838411168334596505
+    second: spr_b_blaze_60
   - first:
-      213: 3815782935513556179
-    second: spr_b_sun-Photoroom_61
+      213: -1706529852417613093
+    second: spr_b_blaze_61
   - first:
-      213: -4128859300289797565
-    second: spr_b_sun-Photoroom_62
+      213: -129369144370551229
+    second: spr_b_blaze_62
   - first:
-      213: -6348830296111929006
-    second: spr_b_sun-Photoroom_63
+      213: -6879952178091888007
+    second: spr_b_blaze_63
   - first:
-      213: 1352873392833747950
-    second: spr_b_sun-Photoroom_64
+      213: 2075469447990968170
+    second: spr_b_blaze_64
   - first:
-      213: 2825949950806778162
-    second: spr_b_sun-Photoroom_65
+      213: -4519320265781530285
+    second: spr_b_blaze_65
   - first:
-      213: 6143435477809900609
-    second: spr_b_sun-Photoroom_66
+      213: -605404671867414380
+    second: spr_b_blaze_66
   - first:
-      213: 759453874293223082
-    second: spr_b_sun-Photoroom_67
+      213: 4772872171860153652
+    second: spr_b_blaze_67
   - first:
-      213: -4975453202361913170
-    second: spr_b_sun-Photoroom_68
+      213: -2863427880828490777
+    second: spr_b_blaze_68
   - first:
-      213: -471417178233014268
-    second: spr_b_sun-Photoroom_69
+      213: -3200671550950754203
+    second: spr_b_blaze_69
   - first:
-      213: 1589812534698113067
-    second: spr_b_sun-Photoroom_70
+      213: -7365784889813460046
+    second: spr_b_blaze_70
   - first:
-      213: 7893678130364127078
-    second: spr_b_sun-Photoroom_71
+      213: 1824823950382773552
+    second: spr_b_blaze_71
   - first:
-      213: -6707968371947264197
-    second: spr_b_sun-Photoroom_72
+      213: -6703567028972801577
+    second: spr_b_blaze_72
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -316,7 +316,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: spr_b_sun-Photoroom_0
+      name: spr_b_blaze_0
       rect:
         serializedVersion: 2
         x: 6
@@ -331,14 +331,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 843bfc7e5b5dbf470800000000000000
-      internalID: 8429566104808960840
+      spriteID: 7f94d1e2ff3b5a850800000000000000
+      internalID: 6387709555066620407
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spr_b_sun-Photoroom_1
+      name: spr_b_blaze_1
       rect:
         serializedVersion: 2
         x: 39
@@ -353,14 +353,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 068a38be9cbfef1b0800000000000000
-      internalID: -5620778440253527968
+      spriteID: 59a68dd113dc4ffd0800000000000000
+      internalID: -2308995098096407915
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spr_b_sun-Photoroom_2
+      name: spr_b_blaze_2
       rect:
         serializedVersion: 2
         x: 72
@@ -375,14 +375,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f23d5893b45d3a040800000000000000
-      internalID: 4657800958695559983
+      spriteID: f9fe77c1b864f05d0800000000000000
+      internalID: -3094176855688220769
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spr_b_sun-Photoroom_3
+      name: spr_b_blaze_3
       rect:
         serializedVersion: 2
         x: 105
@@ -397,14 +397,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 8e47a61358262ea70800000000000000
-      internalID: 8854748141563049192
+      spriteID: bd0b2a2dcbade1420800000000000000
+      internalID: 2602758139189309659
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spr_b_sun-Photoroom_4
+      name: spr_b_blaze_4
       rect:
         serializedVersion: 2
         x: 138
@@ -419,14 +419,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 743d9a948b3e06e50800000000000000
-      internalID: 6800685817978803015
+      spriteID: c63159430c4dfe310800000000000000
+      internalID: 1436600728135471980
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spr_b_sun-Photoroom_5
+      name: spr_b_blaze_5
       rect:
         serializedVersion: 2
         x: 171
@@ -441,14 +441,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: fbf720e566f2de420800000000000000
-      internalID: 2660835071556222911
+      spriteID: db7dac5020d2beb30800000000000000
+      internalID: 4317594154475116477
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spr_b_sun-Photoroom_6
+      name: spr_b_blaze_6
       rect:
         serializedVersion: 2
         x: 204
@@ -463,14 +463,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 083cd4f22b2d006e0800000000000000
-      internalID: -1873265782246489216
+      spriteID: 50f77b06f21a15e50800000000000000
+      internalID: 6796390537536962309
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spr_b_sun-Photoroom_7
+      name: spr_b_blaze_7
       rect:
         serializedVersion: 2
         x: 237
@@ -485,14 +485,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 3cc89f58989226a20800000000000000
-      internalID: 3054049167945600195
+      spriteID: 5d84ec394688aa410800000000000000
+      internalID: 1489152592357247189
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spr_b_sun-Photoroom_8
+      name: spr_b_blaze_8
       rect:
         serializedVersion: 2
         x: 270
@@ -507,14 +507,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ebecc5fe8252ef9c0800000000000000
-      internalID: -3891632170256773442
+      spriteID: 8a0a9e0ddba8aa640800000000000000
+      internalID: 5092034876554191016
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spr_b_sun-Photoroom_9
+      name: spr_b_blaze_9
       rect:
         serializedVersion: 2
         x: 303
@@ -529,14 +529,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 8bde8d68734db2580800000000000000
-      internalID: -8850747307715924552
+      spriteID: 944d6934d8baf7790800000000000000
+      internalID: -7530111428727483319
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spr_b_sun-Photoroom_10
+      name: spr_b_blaze_10
       rect:
         serializedVersion: 2
         x: 5
@@ -551,14 +551,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c84b86cb654b7c640800000000000000
-      internalID: 5100243387641541772
+      spriteID: 7d5864177e1c048a0800000000000000
+      internalID: -6322840677046123049
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spr_b_sun-Photoroom_11
+      name: spr_b_blaze_11
       rect:
         serializedVersion: 2
         x: 6
@@ -573,14 +573,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: db8b04865f1a5d620800000000000000
-      internalID: 2798320818868762813
+      spriteID: 13724fc52c0ee3070800000000000000
+      internalID: 8088149106191771441
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spr_b_sun-Photoroom_12
+      name: spr_b_blaze_12
       rect:
         serializedVersion: 2
         x: 39
@@ -595,14 +595,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 3464bf788f4e8d560800000000000000
-      internalID: 7338867348884637251
+      spriteID: 5fbd4c0217b860d20800000000000000
+      internalID: 3244433899564358645
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spr_b_sun-Photoroom_13
+      name: spr_b_blaze_13
       rect:
         serializedVersion: 2
         x: 39
@@ -617,14 +617,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ef4113da4163e6af0800000000000000
-      internalID: -401323854356474626
+      spriteID: 63dbb142e310f7260800000000000000
+      internalID: 7097392904164588854
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spr_b_sun-Photoroom_14
+      name: spr_b_blaze_14
       rect:
         serializedVersion: 2
         x: 72
@@ -639,14 +639,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f91dabeb9eb769940800000000000000
-      internalID: 5302561855132848543
+      spriteID: 596c5211283a42f40800000000000000
+      internalID: 5702862807186654869
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spr_b_sun-Photoroom_15
+      name: spr_b_blaze_15
       rect:
         serializedVersion: 2
         x: 72
@@ -661,14 +661,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 34edb868ef345d3f0800000000000000
-      internalID: -876719791995625917
+      spriteID: 63daebfd71f229720800000000000000
+      internalID: 2851393293663513910
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spr_b_sun-Photoroom_16
+      name: spr_b_blaze_16
       rect:
         serializedVersion: 2
         x: 104
@@ -683,14 +683,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e7793ac6ea83ec580800000000000000
-      internalID: -8805037899664615554
+      spriteID: d87e60ccb8cd1f620800000000000000
+      internalID: 2806266535810099085
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spr_b_sun-Photoroom_17
+      name: spr_b_blaze_17
       rect:
         serializedVersion: 2
         x: 105
@@ -705,14 +705,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 0204ea9c8e9223f60800000000000000
-      internalID: 8012512766838325280
+      spriteID: 627696e1c2071bc70800000000000000
+      internalID: 8985086066371946278
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spr_b_sun-Photoroom_18
+      name: spr_b_blaze_18
       rect:
         serializedVersion: 2
         x: 138
@@ -727,14 +727,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 46cd2c79f11a0ab60800000000000000
-      internalID: 7755375715394182244
+      spriteID: 1ffa315b89ed6a6d0800000000000000
+      internalID: -2979449356004642831
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spr_b_sun-Photoroom_19
+      name: spr_b_blaze_19
       rect:
         serializedVersion: 2
         x: 138
@@ -749,14 +749,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d0d42042394eb3cd0800000000000000
-      internalID: -2577215041124020979
+      spriteID: cb3e906e741446600800000000000000
+      internalID: 460564838956524476
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spr_b_sun-Photoroom_20
+      name: spr_b_blaze_20
       rect:
         serializedVersion: 2
         x: 170
@@ -771,14 +771,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 37f4dec900306f7c0800000000000000
-      internalID: -4038036714723389581
+      spriteID: 6d5adc4dc96902e60800000000000000
+      internalID: 7935508143756125654
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spr_b_sun-Photoroom_21
+      name: spr_b_blaze_21
       rect:
         serializedVersion: 2
         x: 171
@@ -793,14 +793,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 65c5f32e339b0ee90800000000000000
-      internalID: -6998390188443476906
+      spriteID: 6ca18cb3a4669d410800000000000000
+      internalID: 1502344419721353926
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spr_b_sun-Photoroom_22
+      name: spr_b_blaze_22
       rect:
         serializedVersion: 2
         x: 202
@@ -815,14 +815,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 5fd3cb8c999f4bab0800000000000000
-      internalID: -4993091647953945099
+      spriteID: 6555b0fcb5062fbd0800000000000000
+      internalID: -2597908087607437994
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spr_b_sun-Photoroom_23
+      name: spr_b_blaze_23
       rect:
         serializedVersion: 2
         x: 204
@@ -837,14 +837,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b27cee2867f28e2e0800000000000000
-      internalID: -2096373440491632853
+      spriteID: 2cd8ce9a1f5a4a4e0800000000000000
+      internalID: -1971268279524880958
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spr_b_sun-Photoroom_24
+      name: spr_b_blaze_24
       rect:
         serializedVersion: 2
         x: 235
@@ -859,14 +859,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 94b9a0d1177052050800000000000000
-      internalID: 5775030279572462409
+      spriteID: 0f6da27f5b680fec0800000000000000
+      internalID: -3535177591391856912
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spr_b_sun-Photoroom_25
+      name: spr_b_blaze_25
       rect:
         serializedVersion: 2
         x: 237
@@ -881,14 +881,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e5ad311e216932e20800000000000000
-      internalID: 3324665957759310430
+      spriteID: 9b892dd13c0718c80800000000000000
+      internalID: -8322246653082691399
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spr_b_sun-Photoroom_26
+      name: spr_b_blaze_26
       rect:
         serializedVersion: 2
         x: 268
@@ -903,14 +903,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f2272b0e4a86365f0800000000000000
-      internalID: -764652454369136081
+      spriteID: 469deb53f1c7a7df0800000000000000
+      internalID: -181696361467553436
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spr_b_sun-Photoroom_27
+      name: spr_b_blaze_27
       rect:
         serializedVersion: 2
         x: 270
@@ -925,14 +925,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b7c74672198e884f0800000000000000
-      internalID: -826154821493687173
+      spriteID: ab24a7c87296cca80800000000000000
+      internalID: -8445259582645058886
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spr_b_sun-Photoroom_28
+      name: spr_b_blaze_28
       rect:
         serializedVersion: 2
         x: 303
@@ -947,14 +947,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ce590d4b23500f510800000000000000
-      internalID: 1580769184547116524
+      spriteID: f0d96953a051507c0800000000000000
+      internalID: -4105852351685419761
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spr_b_sun-Photoroom_29
+      name: spr_b_blaze_29
       rect:
         serializedVersion: 2
         x: 7
@@ -969,14 +969,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e3a72b8ff7b848010800000000000000
-      internalID: 1190229583282207294
+      spriteID: db5558cc86d021910800000000000000
+      internalID: 1806521144288040381
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spr_b_sun-Photoroom_30
+      name: spr_b_blaze_30
       rect:
         serializedVersion: 2
         x: 39
@@ -991,14 +991,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 73e6471d59b4a3200800000000000000
-      internalID: 160523843561352759
+      spriteID: e473aeee6521994c0800000000000000
+      internalID: -4280369806254131378
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spr_b_sun-Photoroom_31
+      name: spr_b_blaze_31
       rect:
         serializedVersion: 2
         x: 73
@@ -1013,14 +1013,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f6e26006c63201250800000000000000
-      internalID: 5913265259111919215
+      spriteID: a2fa4c3734897f460800000000000000
+      internalID: 7275451138512826154
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spr_b_sun-Photoroom_32
+      name: spr_b_blaze_32
       rect:
         serializedVersion: 2
         x: 104
@@ -1035,14 +1035,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ee8cbf882fd24fde0800000000000000
-      internalID: -1300363872699692818
+      spriteID: a15267048c8c73700800000000000000
+      internalID: 520105044385080602
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spr_b_sun-Photoroom_33
+      name: spr_b_blaze_33
       rect:
         serializedVersion: 2
         x: 138
@@ -1057,14 +1057,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c46627ddfdda751d0800000000000000
-      internalID: -3362027419804211636
+      spriteID: 3e6d79f8b9ed2dcd0800000000000000
+      internalID: -2534718880545777949
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spr_b_sun-Photoroom_34
+      name: spr_b_blaze_34
       rect:
         serializedVersion: 2
         x: 164
@@ -1079,14 +1079,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d9424b290d99b1f50800000000000000
-      internalID: 6853240379067868317
+      spriteID: 3f4a2db2950d5b590800000000000000
+      internalID: -7658986509867768589
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spr_b_sun-Photoroom_35
+      name: spr_b_blaze_35
       rect:
         serializedVersion: 2
         x: 172
@@ -1101,14 +1101,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 3243771c952a97330800000000000000
-      internalID: 3709174274497917987
+      spriteID: 053027ad81a8f8d20800000000000000
+      internalID: 3282994492725134160
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spr_b_sun-Photoroom_36
+      name: spr_b_blaze_36
       rect:
         serializedVersion: 2
         x: 270
@@ -1123,14 +1123,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 68de02558bf60a4e0800000000000000
-      internalID: -1972453799295390330
+      spriteID: 3e9cb2dc25c16fa20800000000000000
+      internalID: 3095692935818889699
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spr_b_sun-Photoroom_37
+      name: spr_b_blaze_37
       rect:
         serializedVersion: 2
         x: 6
@@ -1145,14 +1145,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c9ebf8f41a65bf720800000000000000
-      internalID: 2880991637458108060
+      spriteID: 396f1721e0410b3b0800000000000000
+      internalID: -5498873094347819373
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spr_b_sun-Photoroom_38
+      name: spr_b_blaze_38
       rect:
         serializedVersion: 2
         x: 39
@@ -1167,14 +1167,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b3c010cf35ed0ea50800000000000000
-      internalID: 6548478310488280123
+      spriteID: 036c334120cd22020800000000000000
+      internalID: 2315655059908838960
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spr_b_sun-Photoroom_39
+      name: spr_b_blaze_39
       rect:
         serializedVersion: 2
         x: 70
@@ -1189,14 +1189,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 057aa9ce1b9920450800000000000000
-      internalID: 6053569838597187408
+      spriteID: a4295b3027b88d0a0800000000000000
+      internalID: -6856577110866816438
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spr_b_sun-Photoroom_40
+      name: spr_b_blaze_40
       rect:
         serializedVersion: 2
         x: 99
@@ -1211,14 +1211,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e532f6682c3fa8200800000000000000
-      internalID: 183226751666561886
+      spriteID: 20c02b3e7ff771ae0800000000000000
+      internalID: -1578652441716323326
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spr_b_sun-Photoroom_41
+      name: spr_b_blaze_41
       rect:
         serializedVersion: 2
         x: 132
@@ -1233,14 +1233,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b23caa19c85babbd0800000000000000
-      internalID: -2613577018391215317
+      spriteID: fbdd25dea3d07eba0800000000000000
+      internalID: -6059860226862817857
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spr_b_sun-Photoroom_42
+      name: spr_b_blaze_42
       rect:
         serializedVersion: 2
         x: 274
@@ -1255,14 +1255,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 3facde752fcf609d0800000000000000
-      internalID: -2808279199831438605
+      spriteID: 72c72a719fd9e8aa0800000000000000
+      internalID: -6156809947399947225
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spr_b_sun-Photoroom_43
+      name: spr_b_blaze_43
       rect:
         serializedVersion: 2
         x: 6
@@ -1277,14 +1277,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 650294ed3924ab6d0800000000000000
-      internalID: -2973991401067831210
+      spriteID: cae81e159a75d1ea0800000000000000
+      internalID: -5900463552050655572
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spr_b_sun-Photoroom_44
+      name: spr_b_blaze_44
       rect:
         serializedVersion: 2
         x: 39
@@ -1299,14 +1299,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 7c09d6ecbf6bfcb20800000000000000
-      internalID: 3156943056426340551
+      spriteID: be25b0d07288d0b20800000000000000
+      internalID: 3102285419632087787
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spr_b_sun-Photoroom_45
+      name: spr_b_blaze_45
       rect:
         serializedVersion: 2
         x: 72
@@ -1321,14 +1321,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 40602b2d0b4349b20800000000000000
-      internalID: 3140192774237849092
+      spriteID: c0f7960bd3d04f690800000000000000
+      internalID: -7569410515099091188
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spr_b_sun-Photoroom_46
+      name: spr_b_blaze_46
       rect:
         serializedVersion: 2
         x: 104
@@ -1343,14 +1343,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 539b65280dbb9a370800000000000000
-      internalID: 8334399089640126773
+      spriteID: df621c5adcbf57e10800000000000000
+      internalID: 2194937254080751357
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spr_b_sun-Photoroom_47
+      name: spr_b_blaze_47
       rect:
         serializedVersion: 2
         x: 138
@@ -1365,14 +1365,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: cc31fad285ff995e0800000000000000
-      internalID: -1902208613398670388
+      spriteID: 17c3413cd6b004f70800000000000000
+      internalID: 9169341407378553969
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spr_b_sun-Photoroom_48
+      name: spr_b_blaze_48
       rect:
         serializedVersion: 2
         x: 171
@@ -1387,14 +1387,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 72220f54ac7381850800000000000000
-      internalID: 6347885016675000871
+      spriteID: ffef4318b54126da0800000000000000
+      internalID: -5953173374188060929
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spr_b_sun-Photoroom_49
+      name: spr_b_blaze_49
       rect:
         serializedVersion: 2
         x: 204
@@ -1409,14 +1409,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b89c073d440e329c0800000000000000
-      internalID: -3953069461691381365
+      spriteID: 4f825703fd086ccc0800000000000000
+      internalID: -3691121148504495884
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spr_b_sun-Photoroom_50
+      name: spr_b_blaze_50
       rect:
         serializedVersion: 2
         x: 236
@@ -1431,14 +1431,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 1ff4342729902c0f0800000000000000
-      internalID: -1098304834538090511
+      spriteID: 786ead265714679f0800000000000000
+      internalID: -471117138588146041
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spr_b_sun-Photoroom_51
+      name: spr_b_blaze_51
       rect:
         serializedVersion: 2
         x: 270
@@ -1453,14 +1453,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c642ea05f1f7c41b0800000000000000
-      internalID: -5671018058291993492
+      spriteID: 089f39e7fc70d5560800000000000000
+      internalID: 7304002758428064128
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spr_b_sun-Photoroom_52
+      name: spr_b_blaze_52
       rect:
         serializedVersion: 2
         x: 302
@@ -1475,14 +1475,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 3e057060905826cd0800000000000000
-      internalID: -2566342563845418781
+      spriteID: 25e6eadd3cec11d10800000000000000
+      internalID: 2094682642337132114
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spr_b_sun-Photoroom_53
+      name: spr_b_blaze_53
       rect:
         serializedVersion: 2
         x: 6
@@ -1497,14 +1497,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 3a92277d2dc1b56f0800000000000000
-      internalID: -694930025615316573
+      spriteID: d830344dd3d7ec1a0800000000000000
+      internalID: -6787349883893120115
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spr_b_sun-Photoroom_54
+      name: spr_b_blaze_54
       rect:
         serializedVersion: 2
         x: 39
@@ -1519,14 +1519,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 9f37cfb263cc66a00800000000000000
-      internalID: 749510921042031609
+      spriteID: b67d2dc6f296f7920800000000000000
+      internalID: 2990224330007435115
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spr_b_sun-Photoroom_55
+      name: spr_b_blaze_55
       rect:
         serializedVersion: 2
         x: 70
@@ -1541,14 +1541,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 91fb419722366b930800000000000000
-      internalID: 4158620305634672409
+      spriteID: ad924aa4401ee3920800000000000000
+      internalID: 2972060212659497434
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spr_b_sun-Photoroom_56
+      name: spr_b_blaze_56
       rect:
         serializedVersion: 2
         x: 105
@@ -1563,14 +1563,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 7a5a79b32c5772b10800000000000000
-      internalID: 1956662040199669159
+      spriteID: 2a085114910be1230800000000000000
+      internalID: 3611517573710315682
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spr_b_sun-Photoroom_57
+      name: spr_b_blaze_57
       rect:
         serializedVersion: 2
         x: 138
@@ -1585,14 +1585,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 2274d39ee2717f880800000000000000
-      internalID: -8577361475054778590
+      spriteID: a660c0897010aa3e0800000000000000
+      internalID: -2041818348931774870
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spr_b_sun-Photoroom_58
+      name: spr_b_blaze_58
       rect:
         serializedVersion: 2
         x: 171
@@ -1607,14 +1607,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d3add4f98a482b3f0800000000000000
-      internalID: -886500316876514755
+      spriteID: ac9b885df54bd3020800000000000000
+      internalID: 2323211306490444234
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spr_b_sun-Photoroom_59
+      name: spr_b_blaze_59
       rect:
         serializedVersion: 2
         x: 204
@@ -1629,14 +1629,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: bab4b141152c93e50800000000000000
-      internalID: 6789671566723206059
+      spriteID: 1a96fa2d99014a990800000000000000
+      internalID: -7375752036875277919
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spr_b_sun-Photoroom_60
+      name: spr_b_blaze_60
       rect:
         serializedVersion: 2
         x: 236
@@ -1651,14 +1651,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: adda18cc5caa66ad0800000000000000
-      internalID: -2709290359300444710
+      spriteID: 7663a5b16451911a0800000000000000
+      internalID: -6838411168334596505
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spr_b_sun-Photoroom_61
+      name: spr_b_blaze_61
       rect:
         serializedVersion: 2
         x: 270
@@ -1673,14 +1673,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 3d4684bec5264f430800000000000000
-      internalID: 3815782935513556179
+      spriteID: bd26c0c04203158e0800000000000000
+      internalID: -1706529852417613093
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spr_b_sun-Photoroom_62
+      name: spr_b_blaze_62
       rect:
         serializedVersion: 2
         x: 303
@@ -1695,14 +1695,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 342a8ae875853b6c0800000000000000
-      internalID: -4128859300289797565
+      spriteID: 346a5e8d273643ef0800000000000000
+      internalID: -129369144370551229
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spr_b_sun-Photoroom_63
+      name: spr_b_blaze_63
       rect:
         serializedVersion: 2
         x: 6
@@ -1717,14 +1717,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 259a205bb7c64e7a0800000000000000
-      internalID: -6348830296111929006
+      spriteID: 972782112ff7580a0800000000000000
+      internalID: -6879952178091888007
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spr_b_sun-Photoroom_64
+      name: spr_b_blaze_64
       rect:
         serializedVersion: 2
         x: 39
@@ -1739,14 +1739,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: eebdee5de2f56c210800000000000000
-      internalID: 1352873392833747950
+      spriteID: a6f7da5777c8dcc10800000000000000
+      internalID: 2075469447990968170
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spr_b_sun-Photoroom_65
+      name: spr_b_blaze_65
       rect:
         serializedVersion: 2
         x: 72
@@ -1761,14 +1761,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 231eedaf18ac73720800000000000000
-      internalID: 2825949950806778162
+      spriteID: 3513ed3a9262841c0800000000000000
+      internalID: -4519320265781530285
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spr_b_sun-Photoroom_66
+      name: spr_b_blaze_66
       rect:
         serializedVersion: 2
         x: 104
@@ -1783,14 +1783,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 14c246b840ed14550800000000000000
-      internalID: 6143435477809900609
+      spriteID: 4981bf398ab2997f0800000000000000
+      internalID: -605404671867414380
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spr_b_sun-Photoroom_67
+      name: spr_b_blaze_67
       rect:
         serializedVersion: 2
         x: 137
@@ -1805,14 +1805,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: aaeaa80664f1a8a00800000000000000
-      internalID: 759453874293223082
+      spriteID: 435521ad3f5ac3240800000000000000
+      internalID: 4772872171860153652
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spr_b_sun-Photoroom_68
+      name: spr_b_blaze_68
       rect:
         serializedVersion: 2
         x: 170
@@ -1827,14 +1827,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ea073ac6ca3a3fab0800000000000000
-      internalID: -4975453202361913170
+      spriteID: 7eba443738f0348d0800000000000000
+      internalID: -2863427880828490777
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spr_b_sun-Photoroom_69
+      name: spr_b_blaze_69
       rect:
         serializedVersion: 2
         x: 203
@@ -1849,14 +1849,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 4087766f2903579f0800000000000000
-      internalID: -471417178233014268
+      spriteID: 568b1eaae2ee493d0800000000000000
+      internalID: -3200671550950754203
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spr_b_sun-Photoroom_70
+      name: spr_b_blaze_70
       rect:
         serializedVersion: 2
         x: 237
@@ -1871,14 +1871,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b28f42eb316201610800000000000000
-      internalID: 1589812534698113067
+      spriteID: 2bb9ab61ba977c990800000000000000
+      internalID: -7365784889813460046
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spr_b_sun-Photoroom_71
+      name: spr_b_blaze_71
       rect:
         serializedVersion: 2
         x: 270
@@ -1893,14 +1893,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 6679f93ef6afb8d60800000000000000
-      internalID: 7893678130364127078
+      spriteID: 035b03ce6b3135910800000000000000
+      internalID: 1824823950382773552
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spr_b_sun-Photoroom_72
+      name: spr_b_blaze_72
       rect:
         serializedVersion: 2
         x: 303
@@ -1915,8 +1915,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b3727895e4288e2a0800000000000000
-      internalID: -6707968371947264197
+      spriteID: 7d13e0edd4528f2a0800000000000000
+      internalID: -6703567028972801577
       vertices: []
       indices: 
       edges: []
@@ -1935,79 +1935,79 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      spr_b_sun-Photoroom_0: 8429566104808960840
-      spr_b_sun-Photoroom_1: -5620778440253527968
-      spr_b_sun-Photoroom_10: 5100243387641541772
-      spr_b_sun-Photoroom_11: 2798320818868762813
-      spr_b_sun-Photoroom_12: 7338867348884637251
-      spr_b_sun-Photoroom_13: -401323854356474626
-      spr_b_sun-Photoroom_14: 5302561855132848543
-      spr_b_sun-Photoroom_15: -876719791995625917
-      spr_b_sun-Photoroom_16: -8805037899664615554
-      spr_b_sun-Photoroom_17: 8012512766838325280
-      spr_b_sun-Photoroom_18: 7755375715394182244
-      spr_b_sun-Photoroom_19: -2577215041124020979
-      spr_b_sun-Photoroom_2: 4657800958695559983
-      spr_b_sun-Photoroom_20: -4038036714723389581
-      spr_b_sun-Photoroom_21: -6998390188443476906
-      spr_b_sun-Photoroom_22: -4993091647953945099
-      spr_b_sun-Photoroom_23: -2096373440491632853
-      spr_b_sun-Photoroom_24: 5775030279572462409
-      spr_b_sun-Photoroom_25: 3324665957759310430
-      spr_b_sun-Photoroom_26: -764652454369136081
-      spr_b_sun-Photoroom_27: -826154821493687173
-      spr_b_sun-Photoroom_28: 1580769184547116524
-      spr_b_sun-Photoroom_29: 1190229583282207294
-      spr_b_sun-Photoroom_3: 8854748141563049192
-      spr_b_sun-Photoroom_30: 160523843561352759
-      spr_b_sun-Photoroom_31: 5913265259111919215
-      spr_b_sun-Photoroom_32: -1300363872699692818
-      spr_b_sun-Photoroom_33: -3362027419804211636
-      spr_b_sun-Photoroom_34: 6853240379067868317
-      spr_b_sun-Photoroom_35: 3709174274497917987
-      spr_b_sun-Photoroom_36: -1972453799295390330
-      spr_b_sun-Photoroom_37: 2880991637458108060
-      spr_b_sun-Photoroom_38: 6548478310488280123
-      spr_b_sun-Photoroom_39: 6053569838597187408
-      spr_b_sun-Photoroom_4: 6800685817978803015
-      spr_b_sun-Photoroom_40: 183226751666561886
-      spr_b_sun-Photoroom_41: -2613577018391215317
-      spr_b_sun-Photoroom_42: -2808279199831438605
-      spr_b_sun-Photoroom_43: -2973991401067831210
-      spr_b_sun-Photoroom_44: 3156943056426340551
-      spr_b_sun-Photoroom_45: 3140192774237849092
-      spr_b_sun-Photoroom_46: 8334399089640126773
-      spr_b_sun-Photoroom_47: -1902208613398670388
-      spr_b_sun-Photoroom_48: 6347885016675000871
-      spr_b_sun-Photoroom_49: -3953069461691381365
-      spr_b_sun-Photoroom_5: 2660835071556222911
-      spr_b_sun-Photoroom_50: -1098304834538090511
-      spr_b_sun-Photoroom_51: -5671018058291993492
-      spr_b_sun-Photoroom_52: -2566342563845418781
-      spr_b_sun-Photoroom_53: -694930025615316573
-      spr_b_sun-Photoroom_54: 749510921042031609
-      spr_b_sun-Photoroom_55: 4158620305634672409
-      spr_b_sun-Photoroom_56: 1956662040199669159
-      spr_b_sun-Photoroom_57: -8577361475054778590
-      spr_b_sun-Photoroom_58: -886500316876514755
-      spr_b_sun-Photoroom_59: 6789671566723206059
-      spr_b_sun-Photoroom_6: -1873265782246489216
-      spr_b_sun-Photoroom_60: -2709290359300444710
-      spr_b_sun-Photoroom_61: 3815782935513556179
-      spr_b_sun-Photoroom_62: -4128859300289797565
-      spr_b_sun-Photoroom_63: -6348830296111929006
-      spr_b_sun-Photoroom_64: 1352873392833747950
-      spr_b_sun-Photoroom_65: 2825949950806778162
-      spr_b_sun-Photoroom_66: 6143435477809900609
-      spr_b_sun-Photoroom_67: 759453874293223082
-      spr_b_sun-Photoroom_68: -4975453202361913170
-      spr_b_sun-Photoroom_69: -471417178233014268
-      spr_b_sun-Photoroom_7: 3054049167945600195
-      spr_b_sun-Photoroom_70: 1589812534698113067
-      spr_b_sun-Photoroom_71: 7893678130364127078
-      spr_b_sun-Photoroom_72: -6707968371947264197
-      spr_b_sun-Photoroom_8: -3891632170256773442
-      spr_b_sun-Photoroom_9: -8850747307715924552
+      spr_b_blaze_0: 6387709555066620407
+      spr_b_blaze_1: -2308995098096407915
+      spr_b_blaze_10: -6322840677046123049
+      spr_b_blaze_11: 8088149106191771441
+      spr_b_blaze_12: 3244433899564358645
+      spr_b_blaze_13: 7097392904164588854
+      spr_b_blaze_14: 5702862807186654869
+      spr_b_blaze_15: 2851393293663513910
+      spr_b_blaze_16: 2806266535810099085
+      spr_b_blaze_17: 8985086066371946278
+      spr_b_blaze_18: -2979449356004642831
+      spr_b_blaze_19: 460564838956524476
+      spr_b_blaze_2: -3094176855688220769
+      spr_b_blaze_20: 7935508143756125654
+      spr_b_blaze_21: 1502344419721353926
+      spr_b_blaze_22: -2597908087607437994
+      spr_b_blaze_23: -1971268279524880958
+      spr_b_blaze_24: -3535177591391856912
+      spr_b_blaze_25: -8322246653082691399
+      spr_b_blaze_26: -181696361467553436
+      spr_b_blaze_27: -8445259582645058886
+      spr_b_blaze_28: -4105852351685419761
+      spr_b_blaze_29: 1806521144288040381
+      spr_b_blaze_3: 2602758139189309659
+      spr_b_blaze_30: -4280369806254131378
+      spr_b_blaze_31: 7275451138512826154
+      spr_b_blaze_32: 520105044385080602
+      spr_b_blaze_33: -2534718880545777949
+      spr_b_blaze_34: -7658986509867768589
+      spr_b_blaze_35: 3282994492725134160
+      spr_b_blaze_36: 3095692935818889699
+      spr_b_blaze_37: -5498873094347819373
+      spr_b_blaze_38: 2315655059908838960
+      spr_b_blaze_39: -6856577110866816438
+      spr_b_blaze_4: 1436600728135471980
+      spr_b_blaze_40: -1578652441716323326
+      spr_b_blaze_41: -6059860226862817857
+      spr_b_blaze_42: -6156809947399947225
+      spr_b_blaze_43: -5900463552050655572
+      spr_b_blaze_44: 3102285419632087787
+      spr_b_blaze_45: -7569410515099091188
+      spr_b_blaze_46: 2194937254080751357
+      spr_b_blaze_47: 9169341407378553969
+      spr_b_blaze_48: -5953173374188060929
+      spr_b_blaze_49: -3691121148504495884
+      spr_b_blaze_5: 4317594154475116477
+      spr_b_blaze_50: -471117138588146041
+      spr_b_blaze_51: 7304002758428064128
+      spr_b_blaze_52: 2094682642337132114
+      spr_b_blaze_53: -6787349883893120115
+      spr_b_blaze_54: 2990224330007435115
+      spr_b_blaze_55: 2972060212659497434
+      spr_b_blaze_56: 3611517573710315682
+      spr_b_blaze_57: -2041818348931774870
+      spr_b_blaze_58: 2323211306490444234
+      spr_b_blaze_59: -7375752036875277919
+      spr_b_blaze_6: 6796390537536962309
+      spr_b_blaze_60: -6838411168334596505
+      spr_b_blaze_61: -1706529852417613093
+      spr_b_blaze_62: -129369144370551229
+      spr_b_blaze_63: -6879952178091888007
+      spr_b_blaze_64: 2075469447990968170
+      spr_b_blaze_65: -4519320265781530285
+      spr_b_blaze_66: -605404671867414380
+      spr_b_blaze_67: 4772872171860153652
+      spr_b_blaze_68: -2863427880828490777
+      spr_b_blaze_69: -3200671550950754203
+      spr_b_blaze_7: 1489152592357247189
+      spr_b_blaze_70: -7365784889813460046
+      spr_b_blaze_71: 1824823950382773552
+      spr_b_blaze_72: -6703567028972801577
+      spr_b_blaze_8: 5092034876554191016
+      spr_b_blaze_9: -7530111428727483319
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
