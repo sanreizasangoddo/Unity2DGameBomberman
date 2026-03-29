@@ -253,7 +253,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -267,7 +267,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 16
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -291,7 +291,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -316,15 +316,15 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: spr_b_blaze_0
+      name: spr_b_blaze
       rect:
         serializedVersion: 2
-        x: 6
-        y: 231
-        width: 20
-        height: 29
+        x: 8
+        y: 233
+        width: 16
+        height: 26
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -341,12 +341,12 @@ TextureImporter:
       name: spr_b_blaze_1
       rect:
         serializedVersion: 2
-        x: 39
-        y: 232
-        width: 20
-        height: 28
+        x: 41
+        y: 233
+        width: 16
+        height: 26
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -363,12 +363,12 @@ TextureImporter:
       name: spr_b_blaze_2
       rect:
         serializedVersion: 2
-        x: 72
-        y: 232
-        width: 20
-        height: 28
+        x: 74
+        y: 233
+        width: 16
+        height: 26
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -385,12 +385,12 @@ TextureImporter:
       name: spr_b_blaze_3
       rect:
         serializedVersion: 2
-        x: 105
-        y: 231
-        width: 20
-        height: 27
+        x: 107
+        y: 232
+        width: 16
+        height: 25
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -407,12 +407,12 @@ TextureImporter:
       name: spr_b_blaze_4
       rect:
         serializedVersion: 2
-        x: 138
-        y: 231
-        width: 20
-        height: 28
+        x: 140
+        y: 233
+        width: 16
+        height: 25
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -429,12 +429,12 @@ TextureImporter:
       name: spr_b_blaze_5
       rect:
         serializedVersion: 2
-        x: 171
-        y: 231
-        width: 20
-        height: 29
+        x: 173
+        y: 233
+        width: 16
+        height: 26
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -451,12 +451,12 @@ TextureImporter:
       name: spr_b_blaze_6
       rect:
         serializedVersion: 2
-        x: 204
-        y: 231
-        width: 20
-        height: 28
+        x: 206
+        y: 233
+        width: 16
+        height: 25
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -473,12 +473,12 @@ TextureImporter:
       name: spr_b_blaze_7
       rect:
         serializedVersion: 2
-        x: 237
-        y: 232
-        width: 20
-        height: 27
+        x: 239
+        y: 233
+        width: 16
+        height: 25
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -495,12 +495,12 @@ TextureImporter:
       name: spr_b_blaze_8
       rect:
         serializedVersion: 2
-        x: 270
-        y: 232
-        width: 20
-        height: 27
+        x: 272
+        y: 233
+        width: 16
+        height: 25
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -517,12 +517,12 @@ TextureImporter:
       name: spr_b_blaze_9
       rect:
         serializedVersion: 2
-        x: 303
-        y: 231
-        width: 20
-        height: 28
+        x: 305
+        y: 233
+        width: 16
+        height: 25
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -539,12 +539,12 @@ TextureImporter:
       name: spr_b_blaze_10
       rect:
         serializedVersion: 2
-        x: 5
-        y: 198
-        width: 20
-        height: 29
+        x: 7
+        y: 200
+        width: 16
+        height: 26
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -561,12 +561,12 @@ TextureImporter:
       name: spr_b_blaze_11
       rect:
         serializedVersion: 2
-        x: 6
-        y: 165
-        width: 20
-        height: 29
+        x: 8
+        y: 167
+        width: 16
+        height: 26
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -583,12 +583,12 @@ TextureImporter:
       name: spr_b_blaze_12
       rect:
         serializedVersion: 2
-        x: 39
-        y: 198
-        width: 19
-        height: 29
+        x: 41
+        y: 200
+        width: 16
+        height: 26
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -605,12 +605,12 @@ TextureImporter:
       name: spr_b_blaze_13
       rect:
         serializedVersion: 2
-        x: 39
-        y: 165
-        width: 20
-        height: 29
+        x: 41
+        y: 167
+        width: 16
+        height: 26
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -627,12 +627,12 @@ TextureImporter:
       name: spr_b_blaze_14
       rect:
         serializedVersion: 2
-        x: 72
-        y: 198
-        width: 19
-        height: 29
+        x: 74
+        y: 200
+        width: 15
+        height: 26
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -649,12 +649,12 @@ TextureImporter:
       name: spr_b_blaze_15
       rect:
         serializedVersion: 2
-        x: 72
-        y: 165
-        width: 20
-        height: 29
+        x: 74
+        y: 167
+        width: 16
+        height: 26
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -671,12 +671,12 @@ TextureImporter:
       name: spr_b_blaze_16
       rect:
         serializedVersion: 2
-        x: 104
-        y: 198
-        width: 22
-        height: 26
+        x: 106
+        y: 199
+        width: 18
+        height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -693,12 +693,12 @@ TextureImporter:
       name: spr_b_blaze_17
       rect:
         serializedVersion: 2
-        x: 105
-        y: 164
-        width: 19
-        height: 28
+        x: 107
+        y: 166
+        width: 16
+        height: 25
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -715,12 +715,12 @@ TextureImporter:
       name: spr_b_blaze_18
       rect:
         serializedVersion: 2
-        x: 138
-        y: 198
-        width: 20
-        height: 28
+        x: 140
+        y: 199
+        width: 16
+        height: 26
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -737,12 +737,12 @@ TextureImporter:
       name: spr_b_blaze_19
       rect:
         serializedVersion: 2
-        x: 138
-        y: 165
-        width: 20
-        height: 28
+        x: 140
+        y: 167
+        width: 16
+        height: 25
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -759,12 +759,12 @@ TextureImporter:
       name: spr_b_blaze_20
       rect:
         serializedVersion: 2
-        x: 170
-        y: 198
-        width: 20
-        height: 29
+        x: 172
+        y: 199
+        width: 16
+        height: 27
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -781,12 +781,12 @@ TextureImporter:
       name: spr_b_blaze_21
       rect:
         serializedVersion: 2
-        x: 171
-        y: 165
-        width: 20
-        height: 29
+        x: 173
+        y: 167
+        width: 16
+        height: 26
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -803,12 +803,12 @@ TextureImporter:
       name: spr_b_blaze_22
       rect:
         serializedVersion: 2
-        x: 202
-        y: 198
-        width: 22
-        height: 27
+        x: 204
+        y: 200
+        width: 18
+        height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -825,12 +825,12 @@ TextureImporter:
       name: spr_b_blaze_23
       rect:
         serializedVersion: 2
-        x: 204
-        y: 165
-        width: 20
-        height: 28
+        x: 206
+        y: 167
+        width: 16
+        height: 25
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -847,12 +847,12 @@ TextureImporter:
       name: spr_b_blaze_24
       rect:
         serializedVersion: 2
-        x: 235
-        y: 198
-        width: 22
-        height: 27
+        x: 237
+        y: 200
+        width: 18
+        height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -869,12 +869,12 @@ TextureImporter:
       name: spr_b_blaze_25
       rect:
         serializedVersion: 2
-        x: 237
-        y: 165
-        width: 20
-        height: 28
+        x: 239
+        y: 167
+        width: 16
+        height: 25
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -891,12 +891,12 @@ TextureImporter:
       name: spr_b_blaze_26
       rect:
         serializedVersion: 2
-        x: 268
-        y: 198
-        width: 22
-        height: 27
+        x: 270
+        y: 200
+        width: 18
+        height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -913,12 +913,12 @@ TextureImporter:
       name: spr_b_blaze_27
       rect:
         serializedVersion: 2
-        x: 270
-        y: 165
-        width: 20
-        height: 28
+        x: 272
+        y: 167
+        width: 16
+        height: 25
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -935,12 +935,12 @@ TextureImporter:
       name: spr_b_blaze_28
       rect:
         serializedVersion: 2
-        x: 303
-        y: 189
-        width: 20
-        height: 35
+        x: 305
+        y: 200
+        width: 16
+        height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -957,12 +957,12 @@ TextureImporter:
       name: spr_b_blaze_29
       rect:
         serializedVersion: 2
-        x: 7
-        y: 132
-        width: 19
-        height: 29
+        x: 9
+        y: 134
+        width: 16
+        height: 26
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -979,12 +979,12 @@ TextureImporter:
       name: spr_b_blaze_30
       rect:
         serializedVersion: 2
-        x: 39
-        y: 132
-        width: 20
-        height: 29
+        x: 41
+        y: 134
+        width: 16
+        height: 26
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1001,12 +1001,12 @@ TextureImporter:
       name: spr_b_blaze_31
       rect:
         serializedVersion: 2
-        x: 73
-        y: 132
-        width: 19
-        height: 29
+        x: 75
+        y: 134
+        width: 15
+        height: 26
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1023,12 +1023,12 @@ TextureImporter:
       name: spr_b_blaze_32
       rect:
         serializedVersion: 2
-        x: 104
-        y: 131
-        width: 22
-        height: 27
+        x: 106
+        y: 133
+        width: 18
+        height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1045,12 +1045,12 @@ TextureImporter:
       name: spr_b_blaze_33
       rect:
         serializedVersion: 2
-        x: 138
-        y: 132
-        width: 20
-        height: 28
+        x: 140
+        y: 133
+        width: 16
+        height: 26
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1067,12 +1067,12 @@ TextureImporter:
       name: spr_b_blaze_34
       rect:
         serializedVersion: 2
-        x: 164
-        y: 103
-        width: 111
-        height: 56
+        x: 174
+        y: 134
+        width: 16
+        height: 26
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1089,12 +1089,12 @@ TextureImporter:
       name: spr_b_blaze_35
       rect:
         serializedVersion: 2
-        x: 172
-        y: 132
-        width: 20
-        height: 29
+        x: 206
+        y: 134
+        width: 18
+        height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1111,12 +1111,12 @@ TextureImporter:
       name: spr_b_blaze_36
       rect:
         serializedVersion: 2
-        x: 270
-        y: 112
-        width: 28
-        height: 47
+        x: 239
+        y: 134
+        width: 18
+        height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1130,15 +1130,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spr_b_blaze_37
+      name: spr_b_blaze_38
       rect:
         serializedVersion: 2
-        x: 6
-        y: 100
-        width: 20
-        height: 29
+        x: 8
+        y: 102
+        width: 16
+        height: 26
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1152,15 +1152,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spr_b_blaze_38
+      name: spr_b_blaze_39
       rect:
         serializedVersion: 2
-        x: 39
-        y: 101
-        width: 20
-        height: 28
+        x: 41
+        y: 103
+        width: 16
+        height: 25
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1174,15 +1174,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spr_b_blaze_39
+      name: spr_b_blaze_40
       rect:
         serializedVersion: 2
-        x: 70
-        y: 101
-        width: 24
-        height: 28
+        x: 71
+        y: 102
+        width: 22
+        height: 26
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1196,15 +1196,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spr_b_blaze_40
+      name: spr_b_blaze_41
       rect:
         serializedVersion: 2
-        x: 99
-        y: 101
-        width: 32
-        height: 29
+        x: 100
+        y: 102
+        width: 30
+        height: 27
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1218,15 +1218,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spr_b_blaze_41
+      name: spr_b_blaze_42
       rect:
         serializedVersion: 2
-        x: 132
-        y: 102
-        width: 32
-        height: 29
+        x: 133
+        y: 103
+        width: 30
+        height: 27
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1240,15 +1240,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spr_b_blaze_42
+      name: spr_b_blaze_37
       rect:
         serializedVersion: 2
-        x: 274
-        y: 109
-        width: 14
-        height: 14
+        x: 272
+        y: 134
+        width: 18
+        height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1262,15 +1262,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spr_b_blaze_43
+      name: spr_b_blaze_47
       rect:
         serializedVersion: 2
-        x: 6
-        y: 66
-        width: 20
-        height: 29
+        x: 8
+        y: 68
+        width: 16
+        height: 26
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1284,15 +1284,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spr_b_blaze_44
+      name: spr_b_blaze_48
       rect:
         serializedVersion: 2
-        x: 39
-        y: 66
-        width: 20
-        height: 29
+        x: 41
+        y: 68
+        width: 16
+        height: 26
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1306,15 +1306,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spr_b_blaze_45
+      name: spr_b_blaze_49
       rect:
         serializedVersion: 2
-        x: 72
-        y: 66
-        width: 20
-        height: 29
+        x: 74
+        y: 68
+        width: 16
+        height: 26
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1328,15 +1328,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spr_b_blaze_46
+      name: spr_b_blaze_50
       rect:
         serializedVersion: 2
-        x: 104
-        y: 66
-        width: 22
-        height: 31
+        x: 106
+        y: 68
+        width: 18
+        height: 28
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1350,15 +1350,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spr_b_blaze_47
+      name: spr_b_blaze_51
       rect:
         serializedVersion: 2
-        x: 138
-        y: 66
-        width: 20
-        height: 29
+        x: 140
+        y: 68
+        width: 16
+        height: 26
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1372,15 +1372,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spr_b_blaze_48
+      name: spr_b_blaze_52
       rect:
         serializedVersion: 2
-        x: 171
-        y: 66
-        width: 20
-        height: 28
+        x: 173
+        y: 68
+        width: 16
+        height: 25
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1394,15 +1394,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spr_b_blaze_49
+      name: spr_b_blaze_53
       rect:
         serializedVersion: 2
-        x: 204
-        y: 66
-        width: 20
-        height: 28
+        x: 206
+        y: 68
+        width: 16
+        height: 25
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1416,15 +1416,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spr_b_blaze_50
+      name: spr_b_blaze_54
       rect:
         serializedVersion: 2
-        x: 236
-        y: 66
-        width: 22
-        height: 27
+        x: 238
+        y: 68
+        width: 18
+        height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1438,15 +1438,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spr_b_blaze_51
+      name: spr_b_blaze_55
       rect:
         serializedVersion: 2
-        x: 270
-        y: 66
-        width: 20
-        height: 28
+        x: 272
+        y: 68
+        width: 16
+        height: 25
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1460,15 +1460,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spr_b_blaze_52
+      name: spr_b_blaze_56
       rect:
         serializedVersion: 2
-        x: 302
-        y: 66
-        width: 22
-        height: 27
+        x: 304
+        y: 68
+        width: 18
+        height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1482,15 +1482,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spr_b_blaze_53
+      name: spr_b_blaze_57
       rect:
         serializedVersion: 2
-        x: 6
-        y: 33
-        width: 20
-        height: 28
+        x: 7
+        y: 34
+        width: 18
+        height: 26
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1504,15 +1504,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spr_b_blaze_54
+      name: spr_b_blaze_58
       rect:
         serializedVersion: 2
-        x: 39
-        y: 33
-        width: 20
-        height: 29
+        x: 40
+        y: 34
+        width: 18
+        height: 27
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1526,15 +1526,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spr_b_blaze_55
+      name: spr_b_blaze_59
       rect:
         serializedVersion: 2
-        x: 70
-        y: 33
-        width: 24
-        height: 28
+        x: 71
+        y: 34
+        width: 22
+        height: 26
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1548,15 +1548,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spr_b_blaze_56
+      name: spr_b_blaze_60
       rect:
         serializedVersion: 2
-        x: 105
-        y: 33
-        width: 20
-        height: 28
+        x: 106
+        y: 34
+        width: 18
+        height: 26
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1570,15 +1570,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spr_b_blaze_57
+      name: spr_b_blaze_61
       rect:
         serializedVersion: 2
-        x: 138
-        y: 33
-        width: 20
-        height: 29
+        x: 139
+        y: 34
+        width: 18
+        height: 27
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1592,15 +1592,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spr_b_blaze_58
+      name: spr_b_blaze_62
       rect:
         serializedVersion: 2
-        x: 171
-        y: 33
-        width: 20
-        height: 30
+        x: 172
+        y: 34
+        width: 18
+        height: 28
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1614,15 +1614,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spr_b_blaze_59
+      name: spr_b_blaze_63
       rect:
         serializedVersion: 2
-        x: 204
-        y: 33
-        width: 21
-        height: 28
+        x: 205
+        y: 34
+        width: 19
+        height: 26
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1636,15 +1636,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spr_b_blaze_60
+      name: spr_b_blaze_64
       rect:
         serializedVersion: 2
-        x: 236
-        y: 32
-        width: 23
-        height: 28
+        x: 237
+        y: 33
+        width: 21
+        height: 26
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1658,15 +1658,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spr_b_blaze_61
+      name: spr_b_blaze_65
       rect:
         serializedVersion: 2
-        x: 270
-        y: 32
-        width: 20
-        height: 19
+        x: 271
+        y: 33
+        width: 18
+        height: 17
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1680,15 +1680,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spr_b_blaze_62
+      name: spr_b_blaze_66
       rect:
         serializedVersion: 2
-        x: 303
-        y: 32
-        width: 20
-        height: 19
+        x: 304
+        y: 33
+        width: 18
+        height: 17
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1702,15 +1702,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spr_b_blaze_63
+      name: spr_b_blaze_67
       rect:
         serializedVersion: 2
-        x: 6
-        y: 0
-        width: 20
-        height: 29
+        x: 7
+        y: 1
+        width: 18
+        height: 27
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1724,15 +1724,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spr_b_blaze_64
+      name: spr_b_blaze_68
       rect:
         serializedVersion: 2
-        x: 39
-        y: 0
-        width: 20
-        height: 29
+        x: 40
+        y: 1
+        width: 18
+        height: 27
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1746,15 +1746,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spr_b_blaze_65
+      name: spr_b_blaze_69
       rect:
         serializedVersion: 2
-        x: 72
-        y: 0
-        width: 21
-        height: 28
+        x: 73
+        y: 1
+        width: 19
+        height: 26
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1768,15 +1768,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spr_b_blaze_66
+      name: spr_b_blaze_70
       rect:
         serializedVersion: 2
-        x: 104
+        x: 105
         y: 0
-        width: 23
-        height: 27
+        width: 21
+        height: 26
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1790,15 +1790,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spr_b_blaze_67
+      name: spr_b_blaze_71
       rect:
         serializedVersion: 2
-        x: 137
+        x: 138
         y: 0
-        width: 23
-        height: 27
+        width: 21
+        height: 26
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1812,15 +1812,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spr_b_blaze_68
+      name: spr_b_blaze_72
       rect:
         serializedVersion: 2
-        x: 170
+        x: 171
         y: 0
-        width: 23
-        height: 27
+        width: 21
+        height: 26
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1834,15 +1834,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spr_b_blaze_69
+      name: spr_b_blaze_73
       rect:
         serializedVersion: 2
-        x: 203
+        x: 204
         y: 0
-        width: 23
-        height: 27
+        width: 21
+        height: 26
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1856,15 +1856,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spr_b_blaze_70
+      name: spr_b_blaze_74
       rect:
         serializedVersion: 2
-        x: 237
-        y: 0
-        width: 21
-        height: 28
+        x: 238
+        y: 1
+        width: 19
+        height: 26
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1878,15 +1878,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spr_b_blaze_71
+      name: spr_b_blaze_75
       rect:
         serializedVersion: 2
-        x: 270
+        x: 271
         y: 0
-        width: 20
-        height: 18
+        width: 18
+        height: 17
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1900,15 +1900,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spr_b_blaze_72
+      name: spr_b_blaze_76
       rect:
         serializedVersion: 2
-        x: 303
+        x: 304
         y: 0
-        width: 20
-        height: 18
+        width: 18
+        height: 17
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1921,11 +1921,33 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: spr_b_blaze_43
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 104
+        width: 32
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7bd4a0993d7f8c47902fee1f7b7daec
+      internalID: 1934691015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 7d1993eaa62aecc49816a340b7bdd7df
     internalID: 0
     vertices: []
     indices: 
@@ -1935,7 +1957,8 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      spr_b_blaze_0: 6387709555066620407
+      6spr_b_blaze_59: -7375752036875277919
+      spr_b_blaze: 6387709555066620407
       spr_b_blaze_1: -2308995098096407915
       spr_b_blaze_10: -6322840677046123049
       spr_b_blaze_11: 8088149106191771441
@@ -1966,46 +1989,47 @@ TextureImporter:
       spr_b_blaze_34: -7658986509867768589
       spr_b_blaze_35: 3282994492725134160
       spr_b_blaze_36: 3095692935818889699
-      spr_b_blaze_37: -5498873094347819373
-      spr_b_blaze_38: 2315655059908838960
-      spr_b_blaze_39: -6856577110866816438
+      spr_b_blaze_37: -6156809947399947225
+      spr_b_blaze_38: -5498873094347819373
+      spr_b_blaze_39: 2315655059908838960
       spr_b_blaze_4: 1436600728135471980
-      spr_b_blaze_40: -1578652441716323326
-      spr_b_blaze_41: -6059860226862817857
-      spr_b_blaze_42: -6156809947399947225
-      spr_b_blaze_43: -5900463552050655572
-      spr_b_blaze_44: 3102285419632087787
-      spr_b_blaze_45: -7569410515099091188
-      spr_b_blaze_46: 2194937254080751357
-      spr_b_blaze_47: 9169341407378553969
-      spr_b_blaze_48: -5953173374188060929
-      spr_b_blaze_49: -3691121148504495884
+      spr_b_blaze_40: -6856577110866816438
+      spr_b_blaze_41: -1578652441716323326
+      spr_b_blaze_42: -6059860226862817857
+      spr_b_blaze_43: 1934691015
+      spr_b_blaze_47: -5900463552050655572
+      spr_b_blaze_48: 3102285419632087787
+      spr_b_blaze_49: -7569410515099091188
       spr_b_blaze_5: 4317594154475116477
-      spr_b_blaze_50: -471117138588146041
-      spr_b_blaze_51: 7304002758428064128
-      spr_b_blaze_52: 2094682642337132114
-      spr_b_blaze_53: -6787349883893120115
-      spr_b_blaze_54: 2990224330007435115
-      spr_b_blaze_55: 2972060212659497434
-      spr_b_blaze_56: 3611517573710315682
-      spr_b_blaze_57: -2041818348931774870
-      spr_b_blaze_58: 2323211306490444234
-      spr_b_blaze_59: -7375752036875277919
+      spr_b_blaze_50: 2194937254080751357
+      spr_b_blaze_51: 9169341407378553969
+      spr_b_blaze_52: -5953173374188060929
+      spr_b_blaze_53: -3691121148504495884
+      spr_b_blaze_54: -471117138588146041
+      spr_b_blaze_55: 7304002758428064128
+      spr_b_blaze_56: 2094682642337132114
+      spr_b_blaze_57: -6787349883893120115
+      spr_b_blaze_58: 2990224330007435115
+      spr_b_blaze_59: 2972060212659497434
       spr_b_blaze_6: 6796390537536962309
-      spr_b_blaze_60: -6838411168334596505
-      spr_b_blaze_61: -1706529852417613093
-      spr_b_blaze_62: -129369144370551229
-      spr_b_blaze_63: -6879952178091888007
-      spr_b_blaze_64: 2075469447990968170
-      spr_b_blaze_65: -4519320265781530285
-      spr_b_blaze_66: -605404671867414380
-      spr_b_blaze_67: 4772872171860153652
-      spr_b_blaze_68: -2863427880828490777
-      spr_b_blaze_69: -3200671550950754203
+      spr_b_blaze_60: 3611517573710315682
+      spr_b_blaze_61: -2041818348931774870
+      spr_b_blaze_62: 2323211306490444234
+      spr_b_blaze_63: -7375752036875277919
+      spr_b_blaze_64: -6838411168334596505
+      spr_b_blaze_65: -1706529852417613093
+      spr_b_blaze_66: -129369144370551229
+      spr_b_blaze_67: -6879952178091888007
+      spr_b_blaze_68: 2075469447990968170
+      spr_b_blaze_69: -4519320265781530285
       spr_b_blaze_7: 1489152592357247189
-      spr_b_blaze_70: -7365784889813460046
-      spr_b_blaze_71: 1824823950382773552
-      spr_b_blaze_72: -6703567028972801577
+      spr_b_blaze_70: -605404671867414380
+      spr_b_blaze_71: 4772872171860153652
+      spr_b_blaze_72: -2863427880828490777
+      spr_b_blaze_73: -3200671550950754203
+      spr_b_blaze_74: -7365784889813460046
+      spr_b_blaze_75: 1824823950382773552
+      spr_b_blaze_76: -6703567028972801577
       spr_b_blaze_8: 5092034876554191016
       spr_b_blaze_9: -7530111428727483319
   mipmapLimitGroupName: 
