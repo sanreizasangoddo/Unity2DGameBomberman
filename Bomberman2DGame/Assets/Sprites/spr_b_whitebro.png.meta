@@ -1,0 +1,2353 @@
+fileFormatVersion: 2
+guid: a7644c81336c77d4eb8e46302080dce2
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3316676921533924634
+    second: spr_b_whitebro_0
+  - first:
+      213: -6730125020014659551
+    second: spr_b_whitebro_1
+  - first:
+      213: -5848636616773845968
+    second: spr_b_whitebro_2
+  - first:
+      213: 7195871367979244865
+    second: spr_b_whitebro_3
+  - first:
+      213: 9211934816009206312
+    second: spr_b_whitebro_4
+  - first:
+      213: -4017259699128307407
+    second: spr_b_whitebro_5
+  - first:
+      213: 7434259426184648797
+    second: spr_b_whitebro_6
+  - first:
+      213: 8470384573818806015
+    second: spr_b_whitebro_7
+  - first:
+      213: -1164332676688159728
+    second: spr_b_whitebro_8
+  - first:
+      213: 1076981502847252630
+    second: spr_b_whitebro_9
+  - first:
+      213: -7634564079416960654
+    second: spr_b_whitebro_10
+  - first:
+      213: -762872447585668482
+    second: spr_b_whitebro_11
+  - first:
+      213: -2008339890748462522
+    second: spr_b_whitebro_12
+  - first:
+      213: -6600432671802254194
+    second: spr_b_whitebro_13
+  - first:
+      213: 979245585972294784
+    second: spr_b_whitebro_14
+  - first:
+      213: -1533324748114611735
+    second: spr_b_whitebro_15
+  - first:
+      213: 5967107000269407998
+    second: spr_b_whitebro_16
+  - first:
+      213: 7082276844499053692
+    second: spr_b_whitebro_17
+  - first:
+      213: -7333192315436905117
+    second: spr_b_whitebro_18
+  - first:
+      213: -4997786397869823512
+    second: spr_b_whitebro_19
+  - first:
+      213: -1399378470844074462
+    second: spr_b_whitebro_20
+  - first:
+      213: 2927617409471870462
+    second: spr_b_whitebro_21
+  - first:
+      213: -2121799849994326840
+    second: spr_b_whitebro_22
+  - first:
+      213: 8890563615000019463
+    second: spr_b_whitebro_23
+  - first:
+      213: -4146030276562737187
+    second: spr_b_whitebro_24
+  - first:
+      213: -3817858230240781802
+    second: spr_b_whitebro_25
+  - first:
+      213: -7361736559750194412
+    second: spr_b_whitebro_26
+  - first:
+      213: 3554259986705538979
+    second: spr_b_whitebro_27
+  - first:
+      213: 166891546751970576
+    second: spr_b_whitebro_28
+  - first:
+      213: 2810497120803762776
+    second: spr_b_whitebro_29
+  - first:
+      213: 389710293530652426
+    second: spr_b_whitebro_30
+  - first:
+      213: -4292085633672213449
+    second: spr_b_whitebro_31
+  - first:
+      213: -165257907343965305
+    second: spr_b_whitebro_32
+  - first:
+      213: 6997448391589866790
+    second: spr_b_whitebro_33
+  - first:
+      213: -6434655560682914181
+    second: spr_b_whitebro_34
+  - first:
+      213: -4146848476675911406
+    second: spr_b_whitebro_35
+  - first:
+      213: -1710340119568757125
+    second: spr_b_whitebro_36
+  - first:
+      213: 3487208522152565933
+    second: spr_b_whitebro_37
+  - first:
+      213: -6928964631905792375
+    second: spr_b_whitebro_38
+  - first:
+      213: -8498020912554124874
+    second: spr_b_whitebro_39
+  - first:
+      213: -1001362381671163920
+    second: spr_b_whitebro_40
+  - first:
+      213: -5728848203522841645
+    second: spr_b_whitebro_41
+  - first:
+      213: -2450334782599538052
+    second: spr_b_whitebro_42
+  - first:
+      213: 3529667686701872577
+    second: spr_b_whitebro_43
+  - first:
+      213: -4971673134358286780
+    second: spr_b_whitebro_44
+  - first:
+      213: -6118681850087319840
+    second: spr_b_whitebro_45
+  - first:
+      213: -7007406856385744483
+    second: spr_b_whitebro_46
+  - first:
+      213: -6184521544853509905
+    second: spr_b_whitebro_47
+  - first:
+      213: 4509241136407523885
+    second: spr_b_whitebro_48
+  - first:
+      213: -5438157214816584058
+    second: spr_b_whitebro_49
+  - first:
+      213: -7019676837543408136
+    second: spr_b_whitebro_50
+  - first:
+      213: -4968871225116639570
+    second: spr_b_whitebro_51
+  - first:
+      213: -2289491146246195515
+    second: spr_b_whitebro_52
+  - first:
+      213: 4189301024008704600
+    second: spr_b_whitebro_53
+  - first:
+      213: -152174753610254940
+    second: spr_b_whitebro_54
+  - first:
+      213: -7412687432935493777
+    second: spr_b_whitebro_55
+  - first:
+      213: 5486614738837375214
+    second: spr_b_whitebro_56
+  - first:
+      213: -5304477725656041283
+    second: spr_b_whitebro_57
+  - first:
+      213: 5025067039424561552
+    second: spr_b_whitebro_58
+  - first:
+      213: 8769327815711094146
+    second: spr_b_whitebro_59
+  - first:
+      213: 4569308585317010452
+    second: spr_b_whitebro_60
+  - first:
+      213: 3048376426038120513
+    second: spr_b_whitebro_61
+  - first:
+      213: -3925162129019315011
+    second: spr_b_whitebro_62
+  - first:
+      213: -4611993564323920456
+    second: spr_b_whitebro_63
+  - first:
+      213: 6872905392068485211
+    second: spr_b_whitebro_64
+  - first:
+      213: -7700480949303448188
+    second: spr_b_whitebro_65
+  - first:
+      213: -3266411844050367974
+    second: spr_b_whitebro_66
+  - first:
+      213: -7423693058510809672
+    second: spr_b_whitebro_67
+  - first:
+      213: -6531406798851651182
+    second: spr_b_whitebro_68
+  - first:
+      213: 214840391489563734
+    second: spr_b_whitebro_69
+  - first:
+      213: -8501623797884287713
+    second: spr_b_whitebro_70
+  - first:
+      213: -2732494357786464226
+    second: spr_b_whitebro_71
+  - first:
+      213: -13693181027277741
+    second: spr_b_whitebro_72
+  - first:
+      213: 6289962827365189478
+    second: spr_b_whitebro_73
+  - first:
+      213: 190095636141838688
+    second: spr_b_whitebro_74
+  - first:
+      213: -8106551941029374099
+    second: spr_b_whitebro_75
+  - first:
+      213: -4246537731033822554
+    second: spr_b_whitebro_76
+  - first:
+      213: -7755947693737773449
+    second: spr_b_whitebro_77
+  - first:
+      213: 865977535436372516
+    second: spr_b_whitebro_78
+  - first:
+      213: 1470790800561084121
+    second: spr_b_whitebro_79
+  - first:
+      213: -7425783732153286401
+    second: spr_b_whitebro_80
+  - first:
+      213: -2997671612004445792
+    second: spr_b_whitebro_81
+  - first:
+      213: 6213990611517682276
+    second: spr_b_whitebro_82
+  - first:
+      213: -3667444816480589495
+    second: spr_b_whitebro_83
+  - first:
+      213: -1113680855092901262
+    second: spr_b_whitebro_84
+  - first:
+      213: 2979870526507426005
+    second: spr_b_whitebro_85
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: spr_b_whitebro_0
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 232
+        width: 18
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1504ce6614370e20800000000000000
+      internalID: 3316676921533924634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_b_whitebro_1
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 232
+        width: 18
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 128be08b3fac992a0800000000000000
+      internalID: -6730125020014659551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_b_whitebro_2
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 232
+        width: 18
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03c3ad40cf775dea0800000000000000
+      internalID: -5848636616773845968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_b_whitebro_3
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 231
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14d9ec142eedcd360800000000000000
+      internalID: 7195871367979244865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_b_whitebro_4
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 232
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82a384288ed57df70800000000000000
+      internalID: 9211934816009206312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_b_whitebro_5
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 232
+        width: 18
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 131f6f68693df38c0800000000000000
+      internalID: -4017259699128307407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_b_whitebro_6
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 232
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d58d5d94f8bcb2760800000000000000
+      internalID: 7434259426184648797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_b_whitebro_7
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 232
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ffe1b6154e9dc8570800000000000000
+      internalID: 8470384573818806015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_b_whitebro_8
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 232
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01c5f95799577dfe0800000000000000
+      internalID: -1164332676688159728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_b_whitebro_9
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 232
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69870e288f432fe00800000000000000
+      internalID: 1076981502847252630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_b_whitebro_10
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 199
+        width: 18
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 279156f5b649c0690800000000000000
+      internalID: -7634564079416960654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_b_whitebro_11
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 199
+        width: 17
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7239b00d8bb965f0800000000000000
+      internalID: -762872447585668482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_b_whitebro_12
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 199
+        width: 17
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64ae0bf8281f024e0800000000000000
+      internalID: -2008339890748462522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_b_whitebro_13
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 198
+        width: 20
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8c1851a47d8664a0800000000000000
+      internalID: -6600432671802254194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_b_whitebro_14
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 198
+        width: 18
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0847fb31caaf69d00800000000000000
+      internalID: 979245585972294784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_b_whitebro_15
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 199
+        width: 18
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e13057f34988bae0800000000000000
+      internalID: -1533324748114611735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_b_whitebro_16
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 199
+        width: 20
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef60ecf933c6fc250800000000000000
+      internalID: 5967107000269407998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_b_whitebro_17
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 199
+        width: 20
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7c275d344d494260800000000000000
+      internalID: 7082276844499053692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_b_whitebro_18
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 199
+        width: 20
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36d42c821744b3a90800000000000000
+      internalID: -7333192315436905117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_b_whitebro_19
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 199
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e9a0b320cb44aab0800000000000000
+      internalID: -4997786397869823512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_b_whitebro_20
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 166
+        width: 18
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 226720be1b8649ce0800000000000000
+      internalID: -1399378470844074462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_b_whitebro_21
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 166
+        width: 18
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef5f1d1d58cf0a820800000000000000
+      internalID: 2927617409471870462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_b_whitebro_22
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 166
+        width: 18
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8cc6c98374add82e0800000000000000
+      internalID: -2121799849994326840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_b_whitebro_23
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 165
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 702c61de080a16b70800000000000000
+      internalID: 8890563615000019463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_b_whitebro_24
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 166
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd7a6791e675676c0800000000000000
+      internalID: -4146030276562737187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_b_whitebro_25
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 166
+        width: 18
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61a52bfda2e340bc0800000000000000
+      internalID: -3817858230240781802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_b_whitebro_26
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 166
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41b55126a9bd5d990800000000000000
+      internalID: -7361736559750194412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_b_whitebro_27
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 166
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3afd7fa60a4435130800000000000000
+      internalID: 3554259986705538979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_b_whitebro_28
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 166
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01daa204afae05200800000000000000
+      internalID: 166891546751970576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_b_whitebro_29
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 133
+        width: 18
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85234cf9d34e00720800000000000000
+      internalID: 2810497120803762776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_b_whitebro_30
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 133
+        width: 17
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0f253b7277886500800000000000000
+      internalID: 389710293530652426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_b_whitebro_31
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 133
+        width: 17
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73c096b4bd27f64c0800000000000000
+      internalID: -4292085633672213449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_b_whitebro_32
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 132
+        width: 20
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78340701fc2e4bdf0800000000000000
+      internalID: -165257907343965305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_b_whitebro_33
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 132
+        width: 18
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62da7d2fc3eeb1160800000000000000
+      internalID: 6997448391589866790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_b_whitebro_34
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 133
+        width: 18
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7eb08d1cd283b6a0800000000000000
+      internalID: -6434655560682914181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_b_whitebro_35
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 133
+        width: 20
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 211dc5a084f6376c0800000000000000
+      internalID: -4146848476675911406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_b_whitebro_36
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 133
+        width: 20
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7e410819b6a348e0800000000000000
+      internalID: -1710340119568757125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_b_whitebro_37
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 117
+        width: 23
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dac5e94ccad056030800000000000000
+      internalID: 3487208522152565933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_b_whitebro_38
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 127
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98e8206e06f57df90800000000000000
+      internalID: -6928964631905792375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_b_whitebro_39
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 133
+        width: 20
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b9de552107f01a80800000000000000
+      internalID: -8498020912554124874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_b_whitebro_40
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 124
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f71d0528327a12f0800000000000000
+      internalID: -1001362381671163920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_b_whitebro_41
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 120
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d3e2e069ea0f70b0800000000000000
+      internalID: -5728848203522841645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_b_whitebro_42
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 101
+        width: 18
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7ade566f79aefdd0800000000000000
+      internalID: -2450334782599538052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_b_whitebro_43
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 102
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c53a016f06ebf030800000000000000
+      internalID: 3529667686701872577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_b_whitebro_44
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 102
+        width: 24
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44ea83710a1110bb0800000000000000
+      internalID: -4971673134358286780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_b_whitebro_45
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 102
+        width: 30
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e65ae78643161ba0800000000000000
+      internalID: -6118681850087319840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_b_whitebro_46
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 103
+        width: 30
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d91bd784790b0ce90800000000000000
+      internalID: -7007406856385744483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_b_whitebro_47
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 104
+        width: 32
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe8a1450c6a2c2aa0800000000000000
+      internalID: -6184521544853509905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_b_whitebro_48
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 106
+        width: 34
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d22362e2cea049e30800000000000000
+      internalID: 4509241136407523885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_b_whitebro_49
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 110
+        width: 13
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68e312263d8c784b0800000000000000
+      internalID: -5438157214816584058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_b_whitebro_50
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 109
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8fd003cab19159e90800000000000000
+      internalID: -7019676837543408136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_b_whitebro_51
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 109
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eae334c62f50b0bb0800000000000000
+      internalID: -4968871225116639570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_b_whitebro_52
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 118
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c6f797cee71a30e0800000000000000
+      internalID: -2289491146246195515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_b_whitebro_53
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 111
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8521831e513632a30800000000000000
+      internalID: 4189301024008704600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_b_whitebro_54
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 110
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a5374b2edd53edf0800000000000000
+      internalID: -152174753610254940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_b_whitebro_55
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 112
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6fa0e8cd08d02990800000000000000
+      internalID: -7412687432935493777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_b_whitebro_56
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 67
+        width: 18
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee803df190f542c40800000000000000
+      internalID: 5486614738837375214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_b_whitebro_57
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 67
+        width: 18
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db8bc43ec95b266b0800000000000000
+      internalID: -5304477725656041283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_b_whitebro_58
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 67
+        width: 18
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 091cc6139df9cb540800000000000000
+      internalID: 5025067039424561552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_b_whitebro_59
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 67
+        width: 18
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 285796ebf29e2b970800000000000000
+      internalID: 8769327815711094146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_b_whitebro_60
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 67
+        width: 18
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41c86f8f2f1796f30800000000000000
+      internalID: 4569308585317010452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_b_whitebro_61
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 67
+        width: 18
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1405daf55320e4a20800000000000000
+      internalID: 3048376426038120513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_b_whitebro_62
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 67
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dbcdcfd07d50789c0800000000000000
+      internalID: -3925162129019315011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_b_whitebro_63
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 67
+        width: 20
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b5c514e948eeffb0800000000000000
+      internalID: -4611993564323920456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_b_whitebro_64
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 67
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b50eb153a07716f50800000000000000
+      internalID: 6872905392068485211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_b_whitebro_65
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 67
+        width: 20
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48dea112065622590800000000000000
+      internalID: -7700480949303448188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_b_whitebro_66
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 34
+        width: 18
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1acf39ebbf5ba2d0800000000000000
+      internalID: -3266411844050367974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_b_whitebro_67
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 34
+        width: 18
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b51ee5ee7eb9f890800000000000000
+      internalID: -7423693058510809672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_b_whitebro_68
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 34
+        width: 18
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29940ee0f18cb55a0800000000000000
+      internalID: -6531406798851651182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_b_whitebro_69
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 34
+        width: 18
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65c2422a2344bf200800000000000000
+      internalID: 214840391489563734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_b_whitebro_70
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 34
+        width: 18
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f158919033a240a80800000000000000
+      internalID: -8501623797884287713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_b_whitebro_71
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 34
+        width: 18
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e10f065ebda341ad0800000000000000
+      internalID: -2732494357786464226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_b_whitebro_72
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 34
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3542609df1a5fcff0800000000000000
+      internalID: -13693181027277741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_b_whitebro_73
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 34
+        width: 20
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6678387addf6a4750800000000000000
+      internalID: 6289962827365189478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_b_whitebro_74
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 33
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 061169159fa53a200800000000000000
+      internalID: 190095636141838688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_b_whitebro_75
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 33
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d67d0b1c5fdbf7f80800000000000000
+      internalID: -8106551941029374099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_b_whitebro_76
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 1
+        width: 18
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6aa8f68ce644115c0800000000000000
+      internalID: -4246537731033822554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_b_whitebro_77
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 1
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 776ff325aa65d5490800000000000000
+      internalID: -7755947693737773449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_b_whitebro_78
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 1
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42a3727faf1940c00800000000000000
+      internalID: 865977535436372516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_b_whitebro_79
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 1
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d61b56c07c496410800000000000000
+      internalID: 1470790800561084121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_b_whitebro_80
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 1
+        width: 18
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff001220a0152f890800000000000000
+      internalID: -7425783732153286401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_b_whitebro_81
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 1
+        width: 18
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a1d33d1d812666d0800000000000000
+      internalID: -2997671612004445792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_b_whitebro_82
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 1
+        width: 18
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 462bf1db9878c3650800000000000000
+      internalID: 6213990611517682276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_b_whitebro_83
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 1
+        width: 18
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 949a350de5e9a1dc0800000000000000
+      internalID: -3667444816480589495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_b_whitebro_84
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 0
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27ac80fa9296b80f0800000000000000
+      internalID: -1113680855092901262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_b_whitebro_85
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 0
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d0a121b470aa5920800000000000000
+      internalID: 2979870526507426005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      spr_b_whitebro_0: 3316676921533924634
+      spr_b_whitebro_1: -6730125020014659551
+      spr_b_whitebro_10: -7634564079416960654
+      spr_b_whitebro_11: -762872447585668482
+      spr_b_whitebro_12: -2008339890748462522
+      spr_b_whitebro_13: -6600432671802254194
+      spr_b_whitebro_14: 979245585972294784
+      spr_b_whitebro_15: -1533324748114611735
+      spr_b_whitebro_16: 5967107000269407998
+      spr_b_whitebro_17: 7082276844499053692
+      spr_b_whitebro_18: -7333192315436905117
+      spr_b_whitebro_19: -4997786397869823512
+      spr_b_whitebro_2: -5848636616773845968
+      spr_b_whitebro_20: -1399378470844074462
+      spr_b_whitebro_21: 2927617409471870462
+      spr_b_whitebro_22: -2121799849994326840
+      spr_b_whitebro_23: 8890563615000019463
+      spr_b_whitebro_24: -4146030276562737187
+      spr_b_whitebro_25: -3817858230240781802
+      spr_b_whitebro_26: -7361736559750194412
+      spr_b_whitebro_27: 3554259986705538979
+      spr_b_whitebro_28: 166891546751970576
+      spr_b_whitebro_29: 2810497120803762776
+      spr_b_whitebro_3: 7195871367979244865
+      spr_b_whitebro_30: 389710293530652426
+      spr_b_whitebro_31: -4292085633672213449
+      spr_b_whitebro_32: -165257907343965305
+      spr_b_whitebro_33: 6997448391589866790
+      spr_b_whitebro_34: -6434655560682914181
+      spr_b_whitebro_35: -4146848476675911406
+      spr_b_whitebro_36: -1710340119568757125
+      spr_b_whitebro_37: 3487208522152565933
+      spr_b_whitebro_38: -6928964631905792375
+      spr_b_whitebro_39: -8498020912554124874
+      spr_b_whitebro_4: 9211934816009206312
+      spr_b_whitebro_40: -1001362381671163920
+      spr_b_whitebro_41: -5728848203522841645
+      spr_b_whitebro_42: -2450334782599538052
+      spr_b_whitebro_43: 3529667686701872577
+      spr_b_whitebro_44: -4971673134358286780
+      spr_b_whitebro_45: -6118681850087319840
+      spr_b_whitebro_46: -7007406856385744483
+      spr_b_whitebro_47: -6184521544853509905
+      spr_b_whitebro_48: 4509241136407523885
+      spr_b_whitebro_49: -5438157214816584058
+      spr_b_whitebro_5: -4017259699128307407
+      spr_b_whitebro_50: -7019676837543408136
+      spr_b_whitebro_51: -4968871225116639570
+      spr_b_whitebro_52: -2289491146246195515
+      spr_b_whitebro_53: 4189301024008704600
+      spr_b_whitebro_54: -152174753610254940
+      spr_b_whitebro_55: -7412687432935493777
+      spr_b_whitebro_56: 5486614738837375214
+      spr_b_whitebro_57: -5304477725656041283
+      spr_b_whitebro_58: 5025067039424561552
+      spr_b_whitebro_59: 8769327815711094146
+      spr_b_whitebro_6: 7434259426184648797
+      spr_b_whitebro_60: 4569308585317010452
+      spr_b_whitebro_61: 3048376426038120513
+      spr_b_whitebro_62: -3925162129019315011
+      spr_b_whitebro_63: -4611993564323920456
+      spr_b_whitebro_64: 6872905392068485211
+      spr_b_whitebro_65: -7700480949303448188
+      spr_b_whitebro_66: -3266411844050367974
+      spr_b_whitebro_67: -7423693058510809672
+      spr_b_whitebro_68: -6531406798851651182
+      spr_b_whitebro_69: 214840391489563734
+      spr_b_whitebro_7: 8470384573818806015
+      spr_b_whitebro_70: -8501623797884287713
+      spr_b_whitebro_71: -2732494357786464226
+      spr_b_whitebro_72: -13693181027277741
+      spr_b_whitebro_73: 6289962827365189478
+      spr_b_whitebro_74: 190095636141838688
+      spr_b_whitebro_75: -8106551941029374099
+      spr_b_whitebro_76: -4246537731033822554
+      spr_b_whitebro_77: -7755947693737773449
+      spr_b_whitebro_78: 865977535436372516
+      spr_b_whitebro_79: 1470790800561084121
+      spr_b_whitebro_8: -1164332676688159728
+      spr_b_whitebro_80: -7425783732153286401
+      spr_b_whitebro_81: -2997671612004445792
+      spr_b_whitebro_82: 6213990611517682276
+      spr_b_whitebro_83: -3667444816480589495
+      spr_b_whitebro_84: -1113680855092901262
+      spr_b_whitebro_85: 2979870526507426005
+      spr_b_whitebro_9: 1076981502847252630
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
