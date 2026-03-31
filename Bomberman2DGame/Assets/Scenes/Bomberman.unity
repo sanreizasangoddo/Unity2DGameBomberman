@@ -5919,6 +5919,8 @@ MonoBehaviour:
   _explosionLayerMask:
     serializedVersion: 2
     m_Bits: 64
+  _destructiblePrefab: {fileID: 7469428911797103329, guid: 0bd9a425dbe2aa84bb4b3139eb05dcd2, type: 3}
+  _destructibleTiles: {fileID: 350604851}
 --- !u!1 &1604972547
 GameObject:
   m_ObjectHideFlags: 0

@@ -1,6 +1,7 @@
 using System.Collections;
 using UnityEditor.ShaderGraph.Internal;
 using UnityEngine;
+using UnityEngine.Tilemaps;
 
 public class BombController : MonoBehaviour
 {
@@ -16,6 +17,10 @@ public class BombController : MonoBehaviour
     [SerializeField] private LayerMask _explosionLayerMask;
     private float _explosionDuration = 1f;
     private int _explosionRadius = 2;
+
+    [Header("Destructible")]
+    [SerializeField] private Destructibles _destructiblePrefab;
+    [SerializeField] private Tilemap _destructibleTiles;
 
     private void OnEnable()
     {
@@ -53,7 +58,7 @@ public class BombController : MonoBehaviour
 
         Explosion explosion = Instantiate(_explosionPrefab, position, Quaternion.identity);
         explosion.SetActiveRenderer(explosion._startExplosion);
-        Destroy(explosion.gameObject, _explosionDuration);
+        explosion.DestroyAfter(_explosionDuration);
 
         Explode(position, Vector2.up, _explosionRadius);
         Explode(position, Vector2.down, _explosionRadius);
@@ -75,15 +80,28 @@ public class BombController : MonoBehaviour
 
         if (Physics2D.OverlapBox(position, Vector2.one / 2f, 0f, _explosionLayerMask))
         {
+            ClearDestructible(position);
             return;
         }
 
         Explosion explosion = Instantiate(_explosionPrefab, position, Quaternion.identity);
         explosion.SetActiveRenderer(length > 1 ? explosion._middleExplosion : explosion._endExplosion);
         explosion.SetDirection(direction);
-        Destroy(explosion.gameObject, _explosionDuration);
+        explosion.DestroyAfter(_explosionDuration);
 
         Explode(position, direction, length - 1);
+    }
+
+    private void ClearDestructible(Vector2 position)
+    {
+        Vector3Int cell = _destructibleTiles.WorldToCell(position);
+        TileBase tile = _destructibleTiles.GetTile(cell);
+
+        if (tile != null)
+        {
+            Instantiate(_destructiblePrefab, position, Quaternion.identity);
+            _destructibleTiles.SetTile(cell, null);
+        }
     }
 
     private void OnTriggerExit2D(Collider2D collision)
