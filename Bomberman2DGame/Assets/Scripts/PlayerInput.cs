@@ -4,12 +4,17 @@ public class PlayerInput : MonoBehaviour
 {
     [SerializeField] private Rigidbody2D _rb;
     private Vector2 _direction = Vector2.down;
-    [SerializeField] private float _moveSpeed = 5f;
+    private float _moveSpeed = 4f;
 
     [SerializeField] private KeyCode _inputUp = KeyCode.W;
     [SerializeField] private KeyCode _inputDown = KeyCode.S;
     [SerializeField] private KeyCode _inputLeft = KeyCode.A;
     [SerializeField] private KeyCode _inputRight = KeyCode.D;
+
+    [SerializeField] private Animations _spriteRendererUp;
+    [SerializeField] private Animations _spriteRendererDown;
+    [SerializeField] private Animations _spriteRendererLeft;
+    [SerializeField] private Animations _spriteRendererRight;
 
     private void Awake()
     {
