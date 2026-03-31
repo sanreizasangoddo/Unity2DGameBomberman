@@ -6,6 +6,11 @@ public class PlayerInput : MonoBehaviour
     private Vector2 _direction = Vector2.down;
     [SerializeField] private float _moveSpeed = 5f;
 
+    [SerializeField] private KeyCode _inputUp = KeyCode.W;
+    [SerializeField] private KeyCode _inputDown = KeyCode.S;
+    [SerializeField] private KeyCode _inputLeft = KeyCode.A;
+    [SerializeField] private KeyCode _inputRight = KeyCode.D;
+
     private void Awake()
     {
         _rb = GetComponent<Rigidbody2D>();
@@ -14,16 +19,16 @@ public class PlayerInput : MonoBehaviour
     // Update is called once per frame
     private void Update()
     {
-        if (Input.GetKey(KeyCode.W))
+        if (Input.GetKey(_inputUp))
         {
             SetDirection(Vector2.up);
-        } else if (Input.GetKey(KeyCode.S))
+        } else if (Input.GetKey(_inputDown))
         {
             SetDirection(Vector2.down);
-        } else if (Input.GetKey(KeyCode.A))
+        } else if (Input.GetKey(_inputLeft))
         {
             SetDirection(Vector2.left);
-        } else if (Input.GetKey(KeyCode.D))
+        } else if (Input.GetKey(_inputRight))
         {
             SetDirection(Vector2.right);
         } else

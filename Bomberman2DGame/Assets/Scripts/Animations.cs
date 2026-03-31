@@ -37,7 +37,7 @@ public class Animations : MonoBehaviour
     {
         _animationFrame++;
 
-        if(_loop && _animationFrame >= _animationSprites.Length)
+        if (_loop && _animationFrame >= _animationSprites.Length)
         {
             _animationFrame = 0;
         }
@@ -45,6 +45,9 @@ public class Animations : MonoBehaviour
         if (_idle)
         {
             _spriteRenderer.sprite = _idleSprite;
+        } else if (_animationFrame >= 0 && _animationFrame < _animationSprites.Length)
+        {
+            _spriteRenderer.sprite = _animationSprites[_animationFrame];
         }
     }
 }
