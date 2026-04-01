@@ -4,7 +4,8 @@ public class PlayerInput : MonoBehaviour
 {
     [SerializeField] private Rigidbody2D _rb;
     private Vector2 _direction = Vector2.down;
-    private float _moveSpeed = 4f;
+    public float _moveSpeed = 4f;
+    [SerializeField] private float _maxSpeed = 12f;
 
     [SerializeField] private KeyCode _inputUp = KeyCode.W;
     [SerializeField] private KeyCode _inputDown = KeyCode.S;
@@ -44,10 +45,12 @@ public class PlayerInput : MonoBehaviour
 
     private void FixedUpdate()
     {
-        Vector2 position = _rb.position;
-        Vector2 movement = _moveSpeed * Time.fixedDeltaTime * _direction;
+        Vector2 velocity = _direction * _moveSpeed;
 
-        _rb.MovePosition(position + movement);
+        //Limiteer snelheid
+        velocity = Vector2.ClampMagnitude(velocity, _maxSpeed);
+
+        _rb.linearVelocity = velocity;
     }
 
     private void SetDirection(Vector2 newDirection)

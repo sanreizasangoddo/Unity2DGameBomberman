@@ -9,14 +9,16 @@ public class BombController : MonoBehaviour
     [SerializeField] private KeyCode _bombInput = KeyCode.Space;
     [SerializeField] private GameObject _bombPrefab;
     private float _bombFuseTime = 3f;
-    private int _bombAmount = 1;
+    public int _bombAmount = 1;
     private int _bombsRemaining;
+    private int _maxBombAmount = 8;
 
     [Header("Explosion")]
     [SerializeField] private Explosion _explosionPrefab;
     [SerializeField] private LayerMask _explosionLayerMask;
-    private float _explosionDuration = 1f;
-    private int _explosionRadius = 2;
+    private float _explosionDuration = 0.5f;
+    public int _explosionRadius = 2;
+    [SerializeField] private int _maxExplosionRadius = 8;
 
     [Header("Destructible")]
     [SerializeField] private Destructibles _destructiblePrefab;
@@ -101,6 +103,23 @@ public class BombController : MonoBehaviour
         {
             Instantiate(_destructiblePrefab, position, Quaternion.identity);
             _destructibleTiles.SetTile(cell, null);
+        }
+    }
+
+    public void AddBomb()
+    {
+       if (_bombAmount < _maxBombAmount)
+        {
+            _bombAmount++;
+            _bombsRemaining++;
+        }
+    }
+
+    public void IncreaseExplosionRadius()
+    {
+        if (_explosionRadius < _maxExplosionRadius)
+        {
+            _explosionRadius++;
         }
     }
 

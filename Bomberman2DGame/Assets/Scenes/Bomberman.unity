@@ -5893,6 +5893,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _rb: {fileID: 1576969649}
+  _moveSpeed: 3
+  _maxSpeed: 11
   _inputUp: 119
   _inputDown: 115
   _inputLeft: 97
@@ -5915,10 +5917,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _bombInput: 32
   _bombPrefab: {fileID: 3084907645553298579, guid: 8ec50302cdcdd0345bdaed20feb6f41d, type: 3}
+  _bombAmount: 1
   _explosionPrefab: {fileID: -4015455371083185609, guid: 94d0e5426287c4443891c15fdca6f361, type: 3}
   _explosionLayerMask:
     serializedVersion: 2
     m_Bits: 64
+  _explosionRadius: 2
+  _maxExplosionRadius: 8
   _destructiblePrefab: {fileID: 7469428911797103329, guid: 0bd9a425dbe2aa84bb4b3139eb05dcd2, type: 3}
   _destructibleTiles: {fileID: 350604851}
 --- !u!1 &1604972547
