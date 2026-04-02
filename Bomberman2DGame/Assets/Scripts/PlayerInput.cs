@@ -16,6 +16,7 @@ public class PlayerInput : MonoBehaviour
     [SerializeField] private Animations _spriteRendererDown;
     [SerializeField] private Animations _spriteRendererLeft;
     [SerializeField] private Animations _spriteRendererRight;
+    [SerializeField] private Animations _spriteRendererDeath;
 
     private void Awake()
     {
@@ -58,5 +59,32 @@ public class PlayerInput : MonoBehaviour
         _direction = newDirection;
 
         //...
+    }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.gameObject.layer == LayerMask.NameToLayer("Explosion"))
+        {
+            Death();
+        }
+    }
+
+    private void Death()
+    {
+        enabled = false;
+        GetComponent<BombController>().enabled = false;
+
+        _spriteRendererUp.enabled = false;
+        _spriteRendererDown.enabled = false;
+        _spriteRendererLeft.enabled = false;
+        _spriteRendererRight.enabled = false;
+        _spriteRendererDeath.enabled = true;
+
+        Invoke(nameof(OnDeath), 1.25f);
+    }
+
+    private void OnDeath()
+    {
+        gameObject.SetActive(false);
     }
 }

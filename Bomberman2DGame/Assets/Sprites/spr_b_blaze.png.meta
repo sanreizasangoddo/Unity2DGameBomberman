@@ -1930,7 +1930,7 @@ TextureImporter:
         width: 32
         height: 27
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1939,6 +1939,94 @@ TextureImporter:
       bones: []
       spriteID: a7bd4a0993d7f8c47902fee1f7b7daec
       internalID: 1934691015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_b_blaze_44
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 106
+        width: 34
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21ead5dbb1d674346ad090a4f973eeb3
+      internalID: -168652224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_b_blaze_45
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 109
+        width: 33
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae05a96cc2197034b8abcb235f195294
+      internalID: 772808108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_b_blaze_46
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 110
+        width: 33
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34a82a4e5d4da8c40935a6bf13ff4b62
+      internalID: 1971299939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_b_blaze_77
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 107
+        width: 20
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1e8745241f8b3347a6d8666b3bcf729
+      internalID: -1605843341
       vertices: []
       indices: 
       edges: []
@@ -1997,6 +2085,9 @@ TextureImporter:
       spr_b_blaze_41: -1578652441716323326
       spr_b_blaze_42: -6059860226862817857
       spr_b_blaze_43: 1934691015
+      spr_b_blaze_44: -168652224
+      spr_b_blaze_45: 772808108
+      spr_b_blaze_46: 1971299939
       spr_b_blaze_47: -5900463552050655572
       spr_b_blaze_48: 3102285419632087787
       spr_b_blaze_49: -7569410515099091188
@@ -2030,6 +2121,7 @@ TextureImporter:
       spr_b_blaze_74: -7365784889813460046
       spr_b_blaze_75: 1824823950382773552
       spr_b_blaze_76: -6703567028972801577
+      spr_b_blaze_77: -1605843341
       spr_b_blaze_8: 5092034876554191016
       spr_b_blaze_9: -7530111428727483319
   mipmapLimitGroupName: 

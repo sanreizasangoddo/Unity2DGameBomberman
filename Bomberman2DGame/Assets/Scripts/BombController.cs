@@ -157,9 +157,12 @@ public class BombController : MonoBehaviour
 
     private void OnTriggerExit2D(Collider2D collision)
     {
-        if (collision.gameObject.CompareTag("Bomb"))
+        if (collision.CompareTag("Bomb"))
         {
-            collision.isTrigger = false;
+            Collider2D bombCollider = collision;
+
+            // Zet de bom solid zodra speler eruit is
+            bombCollider.isTrigger = false;
         }
     }
 }
