@@ -50,42 +50,47 @@ public class BombController : MonoBehaviour
         position.y = RoundToHalfNoIntegers(position.y);
 
         GameObject bomb = Instantiate(_bombPrefab, position, Quaternion.identity);
+
+        Bomb bombScript = bomb.GetComponent<Bomb>();
+        bombScript.Init(this);
+
         _bombsRemaining--;
 
         yield return new WaitForSeconds(_bombFuseTime);
 
-        position = bomb.transform.position;
-        position.x = RoundToHalfNoIntegers(position.x);
-        position.y = RoundToHalfNoIntegers(position.y);
-
-        Explosion explosion = Instantiate(_explosionPrefab, position, Quaternion.identity);
-        explosion.SetActiveRenderer(explosion._startExplosion);
-        explosion.DestroyAfter(_explosionDuration);
-
-        Explode(position, Vector2.up, _explosionRadius);
-        Explode(position, Vector2.down, _explosionRadius);
-        Explode(position, Vector2.left, _explosionRadius);
-        Explode(position, Vector2.right, _explosionRadius);
-
-        Destroy(bomb);
-        _bombsRemaining++;
+        if (bomb != null)
+        {
+            bombScript.ExplodeNow();
+        }
     }
 
     private void Explode(Vector2 position, Vector2 direction, int length)
     {
-        if (length <= 0)
-        {
-            return;
-        }
+        if (length <= 0) return;
 
         position += direction;
 
-        if (Physics2D.OverlapBox(position, Vector2.one / 2f, 0f, _explosionLayerMask))
+        Collider2D hit = Physics2D.OverlapBox(position, Vector2.one / 2f, 0f);
+
+        if (hit != null)
         {
-            ClearDestructible(position);
-            return;
+            // Check of het een bom is
+            Bomb bomb = hit.GetComponent<Bomb>();
+            if (bomb != null)
+            {
+                StartCoroutine(DelayedExplosion(bomb, 0.1f)); // Chain Reaction
+                return; // STOP explosie hier
+            }
+
+            // Destructible
+            if (((1 << hit.gameObject.layer) & _explosionLayerMask) != 0)
+            {
+                ClearDestructible(position);
+                return; // STOP explosie
+            }
         }
 
+        // Geen obstakel -> ga door
         Explosion explosion = Instantiate(_explosionPrefab, position, Quaternion.identity);
         explosion.SetActiveRenderer(length > 1 ? explosion._middleExplosion : explosion._endExplosion);
         explosion.SetDirection(direction);
@@ -120,6 +125,33 @@ public class BombController : MonoBehaviour
         if (_explosionRadius < _maxExplosionRadius)
         {
             _explosionRadius++;
+        }
+    }
+
+    public void TriggerExplosion(Vector2 position)
+    {
+        position.x = RoundToHalfNoIntegers(position.x);
+        position.y = RoundToHalfNoIntegers(position.y);
+
+        Explosion explosion = Instantiate(_explosionPrefab, position, Quaternion.identity);
+        explosion.SetActiveRenderer(explosion._startExplosion);
+        explosion.DestroyAfter(_explosionDuration);
+
+        Explode(position, Vector2.up, _explosionRadius);
+        Explode(position, Vector2.down, _explosionRadius);
+        Explode(position, Vector2.left, _explosionRadius);
+        Explode(position, Vector2.right, _explosionRadius);
+
+        _bombsRemaining++;
+    }
+
+    private IEnumerator DelayedExplosion(Bomb bomb, float delay)
+    {
+        yield return new WaitForSeconds(delay);
+
+        if (bomb != null)
+        {
+            bomb.ExplodeNow();
         }
     }
 
