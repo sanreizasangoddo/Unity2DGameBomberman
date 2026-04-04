@@ -2,15 +2,15 @@ using UnityEngine;
 
 public class Explosion : MonoBehaviour
 {
-    public Animations _startExplosion;
-    public Animations _middleExplosion;
-    public Animations _endExplosion;
+    public Animations startExplosion;
+    public Animations middleExplosion;
+    public Animations endExplosion;
 
     public void SetActiveRenderer(Animations renderer)
     {
-        _startExplosion.enabled = renderer == _startExplosion;
-        _middleExplosion.enabled = renderer == _middleExplosion;
-        _endExplosion.enabled = renderer == _endExplosion;
+        startExplosion.enabled = renderer == startExplosion;
+        middleExplosion.enabled = renderer == middleExplosion;
+        endExplosion.enabled = renderer == endExplosion;
     }
 
     public void SetDirection(Vector2 direction)

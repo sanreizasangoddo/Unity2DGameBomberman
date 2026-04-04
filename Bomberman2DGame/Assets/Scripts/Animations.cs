@@ -11,7 +11,7 @@ public class Animations : MonoBehaviour
     private int _animationFrame;
 
     [SerializeField] private bool _loop = true;
-    [SerializeField] private bool _idle = true;
+    public bool idle = true;
 
     private void Awake()
     {
@@ -42,7 +42,7 @@ public class Animations : MonoBehaviour
             _animationFrame = 0;
         }
 
-        if (_idle)
+        if (idle)
         {
             _spriteRenderer.sprite = _idleSprite;
         } else if (_animationFrame >= 0 && _animationFrame < _animationSprites.Length)

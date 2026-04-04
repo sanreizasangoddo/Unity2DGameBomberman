@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class Destructibles : MonoBehaviour
 {
-    private float _destructionTime = 1f;
+    private float _destructionTime = 0.7f;
 
     //[Range(0f, 1f)]
     [SerializeField] private float _itemSpawnChance = 0.2f;

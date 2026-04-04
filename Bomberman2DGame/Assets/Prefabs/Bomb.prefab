@@ -174,7 +174,7 @@ MonoBehaviour:
   - {fileID: -5337159410277229379, guid: c5394f60f7a7d9245a668f2c7d7f8bcb, type: 3}
   _animationTime: 0.3
   _loop: 1
-  _idle: 0
+  idle: 0
 --- !u!114 &-322061894250746196
 MonoBehaviour:
   m_ObjectHideFlags: 0

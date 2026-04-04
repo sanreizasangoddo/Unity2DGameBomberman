@@ -17,10 +17,12 @@ public class PlayerInput : MonoBehaviour
     [SerializeField] private Animations _spriteRendererLeft;
     [SerializeField] private Animations _spriteRendererRight;
     [SerializeField] private Animations _spriteRendererDeath;
+    private Animations _activeSpriteRenderer;
 
     private void Awake()
     {
         _rb = GetComponent<Rigidbody2D>();
+        _activeSpriteRenderer = _spriteRendererDown;
     }
 
     // Update is called once per frame
@@ -28,19 +30,19 @@ public class PlayerInput : MonoBehaviour
     {
         if (Input.GetKey(_inputUp))
         {
-            SetDirection(Vector2.up);
+            SetDirection(Vector2.up, _spriteRendererUp);
         } else if (Input.GetKey(_inputDown))
         {
-            SetDirection(Vector2.down);
+            SetDirection(Vector2.down, _spriteRendererDown);
         } else if (Input.GetKey(_inputLeft))
         {
-            SetDirection(Vector2.left);
+            SetDirection(Vector2.left, _spriteRendererLeft);
         } else if (Input.GetKey(_inputRight))
         {
-            SetDirection(Vector2.right);
+            SetDirection(Vector2.right, _spriteRendererRight);
         } else
         {
-            SetDirection(Vector2.zero);
+            SetDirection(Vector2.zero, _activeSpriteRenderer);
         }
     }
 
@@ -54,11 +56,17 @@ public class PlayerInput : MonoBehaviour
         _rb.linearVelocity = velocity;
     }
 
-    private void SetDirection(Vector2 newDirection)
+    private void SetDirection(Vector2 newDirection, Animations spriteRenderer)
     {
         _direction = newDirection;
 
-        //...
+        _spriteRendererUp.enabled = spriteRenderer == _spriteRendererUp;
+        _spriteRendererDown.enabled = spriteRenderer == _spriteRendererDown;
+        _spriteRendererLeft.enabled = spriteRenderer == _spriteRendererLeft;
+        _spriteRendererRight.enabled = spriteRenderer == _spriteRendererRight;
+
+        _activeSpriteRenderer = spriteRenderer;
+        _activeSpriteRenderer.idle = _direction == Vector2.zero;
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
@@ -86,5 +94,6 @@ public class PlayerInput : MonoBehaviour
     private void OnDeath()
     {
         gameObject.SetActive(false);
+        FindFirstObjectByType<GameManager>().CheckWinState();
     }
 }

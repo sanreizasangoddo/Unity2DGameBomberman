@@ -159,7 +159,7 @@ MonoBehaviour:
   - {fileID: -5028786312047504514, guid: 2dff1011a7c89f640be6925c94c4a640, type: 3}
   _animationTime: 0.1
   _loop: 0
-  _idle: 0
+  idle: 0
 --- !u!114 &7469428911797103329
 MonoBehaviour:
   m_ObjectHideFlags: 0

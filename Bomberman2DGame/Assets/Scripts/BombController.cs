@@ -9,7 +9,7 @@ public class BombController : MonoBehaviour
     [SerializeField] private KeyCode _bombInput = KeyCode.Space;
     [SerializeField] private GameObject _bombPrefab;
     private float _bombFuseTime = 3f;
-    public int _bombAmount = 1;
+    public int bombAmount = 1;
     private int _bombsRemaining;
     private int _maxBombAmount = 8;
 
@@ -26,7 +26,7 @@ public class BombController : MonoBehaviour
 
     private void OnEnable()
     {
-        _bombsRemaining = _bombAmount;
+        _bombsRemaining = bombAmount;
     }
 
     private void Update()
@@ -92,7 +92,7 @@ public class BombController : MonoBehaviour
 
         // Geen obstakel -> ga door
         Explosion explosion = Instantiate(_explosionPrefab, position, Quaternion.identity);
-        explosion.SetActiveRenderer(length > 1 ? explosion._middleExplosion : explosion._endExplosion);
+        explosion.SetActiveRenderer(length > 1 ? explosion.middleExplosion : explosion.endExplosion);
         explosion.SetDirection(direction);
         explosion.DestroyAfter(_explosionDuration);
 
@@ -113,9 +113,9 @@ public class BombController : MonoBehaviour
 
     public void AddBomb()
     {
-       if (_bombAmount < _maxBombAmount)
+       if (bombAmount < _maxBombAmount)
         {
-            _bombAmount++;
+            bombAmount++;
             _bombsRemaining++;
         }
     }
@@ -134,7 +134,7 @@ public class BombController : MonoBehaviour
         position.y = RoundToHalfNoIntegers(position.y);
 
         Explosion explosion = Instantiate(_explosionPrefab, position, Quaternion.identity);
-        explosion.SetActiveRenderer(explosion._startExplosion);
+        explosion.SetActiveRenderer(explosion.startExplosion);
         explosion.DestroyAfter(_explosionDuration);
 
         Explode(position, Vector2.up, _explosionRadius);
