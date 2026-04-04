@@ -5408,7 +5408,7 @@ MonoBehaviour:
   - {fileID: 389710293530652426, guid: a7644c81336c77d4eb8e46302080dce2, type: 3}
   - {fileID: 2810497120803762776, guid: a7644c81336c77d4eb8e46302080dce2, type: 3}
   - {fileID: -4292085633672213449, guid: a7644c81336c77d4eb8e46302080dce2, type: 3}
-  _animationTime: 0.2
+  _animationTime: 0.175
   _loop: 1
   idle: 1
 --- !u!212 &509504655
@@ -5738,7 +5738,7 @@ MonoBehaviour:
   - {fileID: -6730125020014659551, guid: a7644c81336c77d4eb8e46302080dce2, type: 3}
   - {fileID: 3316676921533924634, guid: a7644c81336c77d4eb8e46302080dce2, type: 3}
   - {fileID: -5848636616773845968, guid: a7644c81336c77d4eb8e46302080dce2, type: 3}
-  _animationTime: 0.2
+  _animationTime: 0.175
   _loop: 1
   idle: 1
 --- !u!212 &736126778
@@ -5838,7 +5838,7 @@ Transform:
   m_GameObject: {fileID: 813095991}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.65, z: 0}
+  m_LocalPosition: {x: 0, y: 0.4, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -5917,7 +5917,7 @@ MonoBehaviour:
   - {fileID: 3244433899564358645, guid: 85fffc46fea1cef4fb9282e67c8b1c62, type: 3}
   - {fileID: -6322840677046123049, guid: 85fffc46fea1cef4fb9282e67c8b1c62, type: 3}
   - {fileID: 5702862807186654869, guid: 85fffc46fea1cef4fb9282e67c8b1c62, type: 3}
-  _animationTime: 0.2
+  _animationTime: 0.175
   _loop: 1
   idle: 1
 --- !u!1 &844163965
@@ -5954,6 +5954,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _bombInput: 303
   _bombPrefab: {fileID: 3084907645553298579, guid: 8ec50302cdcdd0345bdaed20feb6f41d, type: 3}
+  _bombLayer:
+    serializedVersion: 2
+    m_Bits: 512
   bombAmount: 1
   _explosionPrefab: {fileID: -4015455371083185609, guid: 94d0e5426287c4443891c15fdca6f361, type: 3}
   _explosionLayerMask:
@@ -6097,7 +6100,7 @@ Transform:
   m_GameObject: {fileID: 957125426}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.65, z: 0}
+  m_LocalPosition: {x: 0, y: 0.4, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -6176,7 +6179,7 @@ MonoBehaviour:
   - {fileID: -4280369806254131378, guid: 85fffc46fea1cef4fb9282e67c8b1c62, type: 3}
   - {fileID: 1806521144288040381, guid: 85fffc46fea1cef4fb9282e67c8b1c62, type: 3}
   - {fileID: 7275451138512826154, guid: 85fffc46fea1cef4fb9282e67c8b1c62, type: 3}
-  _animationTime: 0.2
+  _animationTime: 0.175
   _loop: 1
   idle: 1
 --- !u!1 &968767005
@@ -6262,7 +6265,7 @@ MonoBehaviour:
   - {fileID: -762872447585668482, guid: a7644c81336c77d4eb8e46302080dce2, type: 3}
   - {fileID: -7634564079416960654, guid: a7644c81336c77d4eb8e46302080dce2, type: 3}
   - {fileID: -2008339890748462522, guid: a7644c81336c77d4eb8e46302080dce2, type: 3}
-  _animationTime: 0.2
+  _animationTime: 0.175
   _loop: 1
   idle: 1
 --- !u!212 &991870044
@@ -6362,7 +6365,7 @@ Transform:
   m_GameObject: {fileID: 1426224645}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.65, z: 0}
+  m_LocalPosition: {x: 0, y: 0.4, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -6441,7 +6444,7 @@ MonoBehaviour:
   - {fileID: -2308995098096407915, guid: 85fffc46fea1cef4fb9282e67c8b1c62, type: 3}
   - {fileID: 6387709555066620407, guid: 85fffc46fea1cef4fb9282e67c8b1c62, type: 3}
   - {fileID: -3094176855688220769, guid: 85fffc46fea1cef4fb9282e67c8b1c62, type: 3}
-  _animationTime: 0.2
+  _animationTime: 0.175
   _loop: 1
   idle: 1
 --- !u!1 &1576969647
@@ -6585,6 +6588,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _bombInput: 32
   _bombPrefab: {fileID: 3084907645553298579, guid: 8ec50302cdcdd0345bdaed20feb6f41d, type: 3}
+  _bombLayer:
+    serializedVersion: 2
+    m_Bits: 512
   bombAmount: 1
   _explosionPrefab: {fileID: -4015455371083185609, guid: 94d0e5426287c4443891c15fdca6f361, type: 3}
   _explosionLayerMask:
@@ -6676,7 +6682,7 @@ MonoBehaviour:
   - {fileID: 2927617409471870462, guid: a7644c81336c77d4eb8e46302080dce2, type: 3}
   - {fileID: -1399378470844074462, guid: a7644c81336c77d4eb8e46302080dce2, type: 3}
   - {fileID: -2121799849994326840, guid: a7644c81336c77d4eb8e46302080dce2, type: 3}
-  _animationTime: 0.2
+  _animationTime: 0.175
   _loop: 1
   idle: 1
 --- !u!212 &1738890121
@@ -6776,7 +6782,7 @@ Transform:
   m_GameObject: {fileID: 2113499863}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.65, z: 0}
+  m_LocalPosition: {x: 0, y: 0.4, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -6855,7 +6861,7 @@ MonoBehaviour:
   - {fileID: 7097392904164588854, guid: 85fffc46fea1cef4fb9282e67c8b1c62, type: 3}
   - {fileID: 8088149106191771441, guid: 85fffc46fea1cef4fb9282e67c8b1c62, type: 3}
   - {fileID: 2851393293663513910, guid: 85fffc46fea1cef4fb9282e67c8b1c62, type: 3}
-  _animationTime: 0.2
+  _animationTime: 0.175
   _loop: 1
   idle: 1
 --- !u!1660057539 &9223372036854775807

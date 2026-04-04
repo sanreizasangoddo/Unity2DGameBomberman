@@ -1,4 +1,5 @@
 using UnityEngine;
+using static TMPro.SpriteAssetUtilities.TexturePacker_JsonArray;
 
 public class PlayerInput : MonoBehaviour
 {
@@ -19,15 +20,18 @@ public class PlayerInput : MonoBehaviour
     [SerializeField] private Animations _spriteRendererDeath;
     private Animations _activeSpriteRenderer;
 
+    // Wordt één keer aangeroepen bij het starten.
     private void Awake()
     {
+        // Haalt Rigidbody op en zet standaard animatie.
         _rb = GetComponent<Rigidbody2D>();
         _activeSpriteRenderer = _spriteRendererDown;
     }
 
-    // Update is called once per frame
+    // Wordt elke frame aangeroepen.
     private void Update()
     {
+        // Verwerkt input en bepaalt richting + animatie.
         if (Input.GetKey(_inputUp))
         {
             SetDirection(Vector2.up, _spriteRendererUp);
@@ -42,33 +46,44 @@ public class PlayerInput : MonoBehaviour
             SetDirection(Vector2.right, _spriteRendererRight);
         } else
         {
+            // Geen input -> idle
             SetDirection(Vector2.zero, _activeSpriteRenderer);
         }
     }
 
+    // Wordt op vaste intervallen aangeroepen (physics update).
+    // Past snelheid toe op de Rigidbody.
     private void FixedUpdate()
     {
+        // Bereken velocity op basis van richting en snelheid
         Vector2 velocity = _direction * _moveSpeed;
 
-        //Limiteer snelheid
+        // Beperk snelheid tot maxSpeed
         velocity = Vector2.ClampMagnitude(velocity, _maxSpeed);
 
+        // Past velocity toe
         _rb.linearVelocity = velocity;
     }
 
+    // Zet de bewegingsrichting en wisselt de animatie.
     private void SetDirection(Vector2 newDirection, Animations spriteRenderer)
     {
         _direction = newDirection;
 
+        // Zet alleen de juiste animatie aan
         _spriteRendererUp.enabled = spriteRenderer == _spriteRendererUp;
         _spriteRendererDown.enabled = spriteRenderer == _spriteRendererDown;
         _spriteRendererLeft.enabled = spriteRenderer == _spriteRendererLeft;
         _spriteRendererRight.enabled = spriteRenderer == _spriteRendererRight;
 
+        // Update actieve animatie
         _activeSpriteRenderer = spriteRenderer;
+
+        // Zet idle als speler niet beweegt
         _activeSpriteRenderer.idle = _direction == Vector2.zero;
     }
 
+    // Detecteert collision met een explosie.
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.gameObject.layer == LayerMask.NameToLayer("Explosion"))
@@ -77,10 +92,14 @@ public class PlayerInput : MonoBehaviour
         }
     }
 
+    // Wordt aangeroepen wanneer de speler doodgaat.
+    // Zet beweging en input uit en speelt death animatie.
     private void Death()
     {
         enabled = false;
         GetComponent<BombController>().enabled = false;
+
+        _rb.linearVelocity = Vector2.zero;
 
         _spriteRendererUp.enabled = false;
         _spriteRendererDown.enabled = false;
@@ -91,6 +110,8 @@ public class PlayerInput : MonoBehaviour
         Invoke(nameof(OnDeath), 1.25f);
     }
 
+    // Wordt aangeroepen na death animatie.
+    // Verwijdert speler en checkt win conditie.
     private void OnDeath()
     {
         gameObject.SetActive(false);

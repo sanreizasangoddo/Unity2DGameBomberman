@@ -25,11 +25,13 @@ public class BombController : MonoBehaviour
     [SerializeField] private Destructibles _destructiblePrefab;
     [SerializeField] private Tilemap _destructibleTiles;
 
+    // Reset beschikbare bommen wanneer object actief wordt
     private void OnEnable()
     {
         _bombsRemaining = bombAmount;
     }
 
+    // Checkt input om bom te plaatsen
     private void Update()
     {
         if (_bombsRemaining > 0 && Input.GetKeyDown(_bombInput))
@@ -38,11 +40,13 @@ public class BombController : MonoBehaviour
         }
     }
 
+    // Rondt positie af naar .5 grid (bijv. 1.2 -> 1.5)
     float RoundToHalfNoIntegers(float value)
     {
         return Mathf.Floor(value) + 0.5f;
     }
 
+    // Plaatst een bom op de grid positie van de speler
     private IEnumerator PlaceBomb()
     {
         Vector2 position = transform.position;
@@ -50,7 +54,7 @@ public class BombController : MonoBehaviour
         position.x = RoundToHalfNoIntegers(position.x);
         position.y = RoundToHalfNoIntegers(position.y);
 
-        // Check of er al een bom ligt
+        // Check of er al een bom ligt op deze tile
         Collider2D hit = Physics2D.OverlapBox(position, Vector2.one * 0.4f, 0f, _bombLayer);
 
         if (hit != null)
@@ -73,6 +77,7 @@ public class BombController : MonoBehaviour
         }
     }
 
+    // Recursive functie die explosie in een richting uitbreidt
     private void Explode(Vector2 position, Vector2 direction, int length)
     {
         if (length <= 0) return;
@@ -83,23 +88,30 @@ public class BombController : MonoBehaviour
 
         if (hit != null)
         {
-            // Check of het een bom is
+            // Chain reaction met een andere bom
             Bomb bomb = hit.GetComponent<Bomb>();
             if (bomb != null)
             {
-                StartCoroutine(DelayedExplosion(bomb, 0.1f)); // Chain Reaction
-                return; // STOP explosie hier
+                StartCoroutine(DelayedExplosion(bomb, 0.1f));
+                return; // Stop explosie hier
             }
 
-            // Destructible
+            // Item geraakt
+            if (hit.TryGetComponent(out ItemPickup item))
+            {
+                item.HitByExplosion(); // effect + destroy
+                return; // stop explosie
+            }
+
+            //Destructible block geraakt
             if (((1 << hit.gameObject.layer) & _explosionLayerMask) != 0)
             {
                 ClearDestructible(position);
-                return; // STOP explosie
+                return; // stop explosie
             }
         }
 
-        // Geen obstakel -> ga door
+        // Geen obstakel -> spawn explosie en ga door
         Explosion explosion = Instantiate(_explosionPrefab, position, Quaternion.identity);
         explosion.SetActiveRenderer(length > 1 ? explosion.middleExplosion : explosion.endExplosion);
         explosion.SetDirection(direction);
@@ -108,6 +120,7 @@ public class BombController : MonoBehaviour
         Explode(position, direction, length - 1);
     }
 
+    // Verwijdert destructible tile en spawn effect
     private void ClearDestructible(Vector2 position)
     {
         Vector3Int cell = _destructibleTiles.WorldToCell(position);
@@ -137,11 +150,13 @@ public class BombController : MonoBehaviour
         }
     }
 
+    // Start een explosie op een specifieke positie
     public void TriggerExplosion(Vector2 position)
     {
         position.x = RoundToHalfNoIntegers(position.x);
         position.y = RoundToHalfNoIntegers(position.y);
 
+        // Midden explosie
         Explosion explosion = Instantiate(_explosionPrefab, position, Quaternion.identity);
         explosion.SetActiveRenderer(explosion.startExplosion);
         explosion.DestroyAfter(_explosionDuration);
@@ -154,6 +169,7 @@ public class BombController : MonoBehaviour
         _bombsRemaining++;
     }
 
+    // Kleine delay voor chain reactions
     private IEnumerator DelayedExplosion(Bomb bomb, float delay)
     {
         yield return new WaitForSeconds(delay);
@@ -164,6 +180,7 @@ public class BombController : MonoBehaviour
         }
     }
 
+    // Zorgt dat bom solid wordt nadat speler eruit loopt
     private void OnTriggerExit2D(Collider2D collision)
     {
         if (collision.CompareTag("Bomb"))
