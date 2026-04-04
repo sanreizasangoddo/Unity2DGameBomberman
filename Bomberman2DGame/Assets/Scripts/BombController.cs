@@ -8,6 +8,7 @@ public class BombController : MonoBehaviour
     [Header("Bomb")]
     [SerializeField] private KeyCode _bombInput = KeyCode.Space;
     [SerializeField] private GameObject _bombPrefab;
+    [SerializeField] private LayerMask _bombLayer;
     private float _bombFuseTime = 3f;
     public int bombAmount = 1;
     private int _bombsRemaining;
@@ -48,6 +49,14 @@ public class BombController : MonoBehaviour
 
         position.x = RoundToHalfNoIntegers(position.x);
         position.y = RoundToHalfNoIntegers(position.y);
+
+        // Check of er al een bom ligt
+        Collider2D hit = Physics2D.OverlapBox(position, Vector2.one * 0.4f, 0f, _bombLayer);
+
+        if (hit != null)
+        {
+            yield break; // stop -> geen bom plaatsen
+        }
 
         GameObject bomb = Instantiate(_bombPrefab, position, Quaternion.identity);
 
