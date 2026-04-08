@@ -13,6 +13,8 @@ public class BombController : MonoBehaviour
     public int bombAmount = 1;
     private int _bombsRemaining;
     private int _maxBombAmount = 8;
+    private AudioSource _audioSource;
+    private AudioClip _bombPlaced;
 
     [Header("Explosion")]
     [SerializeField] private Explosion _explosionPrefab;
@@ -24,6 +26,16 @@ public class BombController : MonoBehaviour
     [Header("Destructible")]
     [SerializeField] private Destructibles _destructiblePrefab;
     [SerializeField] private Tilemap _destructibleTiles;
+
+    private void Start()
+    {
+        _bombPlaced = (AudioClip)Resources.Load("Bomb_Placed");
+    }
+
+    private void Awake()
+    {
+        _audioSource = GetComponent<AudioSource>();
+    }
 
     // Reset beschikbare bommen wanneer object actief wordt
     private void OnEnable()
