@@ -23,6 +23,8 @@ public class AudioManager : MonoBehaviour
     private void Start()
     {
         PlayMusic("Main Menu Theme");
+        PlayMusic("Tutorial Theme");
+        PlayMusic("Battle Theme");
     }
 
     public void PlayMusic(string name)
