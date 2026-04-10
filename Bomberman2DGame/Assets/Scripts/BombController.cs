@@ -89,7 +89,7 @@ public class BombController : MonoBehaviour
         }
     }
 
-    // Recursive functie die explosie in een richting uitbreidt
+    // Laat de explosie stap voor stap in één richting verder gaan
     private void Explode(Vector2 position, Vector2 direction, int length)
     {
         if (length <= 0) return;
