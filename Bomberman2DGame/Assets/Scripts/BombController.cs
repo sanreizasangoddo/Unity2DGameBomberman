@@ -20,7 +20,7 @@ public class BombController : MonoBehaviour
     [SerializeField] private Explosion _explosionPrefab;
     [SerializeField] private LayerMask _explosionLayerMask;
     private float _explosionDuration = 0.5f;
-    public int _explosionRadius = 2;
+    public int explosionRadius = 2;
     [SerializeField] private int _maxExplosionRadius = 8;
 
     [Header("Destructible")]
@@ -156,9 +156,9 @@ public class BombController : MonoBehaviour
 
     public void IncreaseExplosionRadius()
     {
-        if (_explosionRadius < _maxExplosionRadius)
+        if (explosionRadius < _maxExplosionRadius)
         {
-            _explosionRadius++;
+            explosionRadius++;
         }
     }
 
@@ -173,10 +173,10 @@ public class BombController : MonoBehaviour
         explosion.SetActiveRenderer(explosion.startExplosion);
         explosion.DestroyAfter(_explosionDuration);
 
-        Explode(position, Vector2.up, _explosionRadius);
-        Explode(position, Vector2.down, _explosionRadius);
-        Explode(position, Vector2.left, _explosionRadius);
-        Explode(position, Vector2.right, _explosionRadius);
+        Explode(position, Vector2.up, explosionRadius);
+        Explode(position, Vector2.down, explosionRadius);
+        Explode(position, Vector2.left, explosionRadius);
+        Explode(position, Vector2.right, explosionRadius);
 
         _bombsRemaining++;
     }

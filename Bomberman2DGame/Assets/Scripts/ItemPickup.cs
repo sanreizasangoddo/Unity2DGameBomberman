@@ -27,7 +27,7 @@ public class ItemPickup : MonoBehaviour
                 break;
 
             case ItemType.SpeedIncrease:
-                player.GetComponent<PlayerInput>()._moveSpeed++;
+                player.GetComponent<PlayerInput>().moveSpeed++;
                 break;
         }
 

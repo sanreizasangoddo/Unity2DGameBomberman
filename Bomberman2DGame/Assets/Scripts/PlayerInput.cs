@@ -4,7 +4,7 @@ public class PlayerInput : MonoBehaviour
 {
     [SerializeField] private Rigidbody2D _rb;
     private Vector2 _direction = Vector2.down;
-    public float _moveSpeed = 4f;
+    public float moveSpeed = 4f;
     [SerializeField] private float _maxSpeed = 12f;
 
     [SerializeField] private KeyCode _inputUp = KeyCode.W;
@@ -55,7 +55,7 @@ public class PlayerInput : MonoBehaviour
     private void FixedUpdate()
     {
         // Bereken velocity op basis van richting en snelheid
-        Vector2 velocity = _direction * _moveSpeed;
+        Vector2 velocity = _direction * moveSpeed;
 
         // Beperk snelheid tot maxSpeed
         velocity = Vector2.ClampMagnitude(velocity, _maxSpeed);
