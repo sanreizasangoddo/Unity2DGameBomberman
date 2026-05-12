@@ -6,6 +6,12 @@ public class GameManager : MonoBehaviour
     [SerializeField] private GameObject[] _players;
     private bool _roundEnding = false;
 
+    private void Start()
+    {
+        int playerLayer = LayerMask.NameToLayer("Player");
+        Physics2D.IgnoreLayerCollision(playerLayer, playerLayer, true);
+    }
+
     // Controleert hoeveel spelers nog leven.
     // Wordt aangeroepen wanneer een speler doodgaat.
     public void CheckWinState()

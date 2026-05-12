@@ -251,7 +251,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &350604849
 Transform:
   m_ObjectHideFlags: 0
@@ -5716,7 +5716,7 @@ Camera:
   far clip plane: 1000
   field of view: 34
   orthographic: 1
-  orthographic size: 7.5
+  orthographic size: 9
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -6091,7 +6091,7 @@ MonoBehaviour:
   _explosionLayerMask:
     serializedVersion: 2
     m_Bits: 64
-  _explosionRadius: 2
+  explosionRadius: 2
   _maxExplosionRadius: 8
   _destructiblePrefab: {fileID: 7469428911797103329, guid: 0bd9a425dbe2aa84bb4b3139eb05dcd2, type: 3}
   _destructibleTiles: {fileID: 350604851}
@@ -6108,7 +6108,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _rb: {fileID: 844163969}
-  _moveSpeed: 3
+  moveSpeed: 4
   _maxSpeed: 11
   _inputUp: 273
   _inputDown: 274
@@ -6821,7 +6821,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _rb: {fileID: 1576969649}
-  _moveSpeed: 3
+  moveSpeed: 4
   _maxSpeed: 11
   _inputUp: 119
   _inputDown: 115
@@ -6854,7 +6854,7 @@ MonoBehaviour:
   _explosionLayerMask:
     serializedVersion: 2
     m_Bits: 64
-  _explosionRadius: 2
+  explosionRadius: 2
   _maxExplosionRadius: 8
   _destructiblePrefab: {fileID: 7469428911797103329, guid: 0bd9a425dbe2aa84bb4b3139eb05dcd2, type: 3}
   _destructibleTiles: {fileID: 350604851}
